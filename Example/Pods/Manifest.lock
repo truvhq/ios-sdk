@@ -1,0 +1,16 @@
+PODS:
+  - TruvSDK (1.0.0)
+
+DEPENDENCIES:
+  - TruvSDK (from `../`)
+
+EXTERNAL SOURCES:
+  TruvSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TruvSDK: e0ee64af1066dfaad21d09ab000833e1a854c901
+
+PODFILE CHECKSUM: f382439ecdcb11f4dacbea7cb108070ff2bdd858
+
+COCOAPODS: 1.10.1

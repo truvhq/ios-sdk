@@ -1,0 +1,24 @@
+{
+  "name": "TruvSDK",
+  "version": "1.0.0",
+  "summary": "A short description of TruvSDK.",
+  "description": "A long description of TruvSDK.",
+  "homepage": "https://github.com/truvhq/ios-sdk",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Sergey Butorin": "sbutorin97@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/truvhq/ios-sdk.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "Sources/**/*",
+  "swift_version": "5.0"
+}

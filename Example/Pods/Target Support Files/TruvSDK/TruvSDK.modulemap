@@ -1,0 +1,6 @@
+framework module TruvSDK {
+  umbrella header "TruvSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
