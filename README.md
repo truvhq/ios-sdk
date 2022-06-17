@@ -26,19 +26,19 @@ end
 
 Please be sure to run `pod update` and use `pod install --repo-update` to ensure you have the most recent version of the SDK installed.
 
-### TruvBrowserView
+### TruvBridgeView
 
-The TruvBrowserView is a `UIView` that you can integrate into your app's flow like so:
+The TruvBridgeView is a `UIView` that you can integrate into your app's flow like so:
 
 ```swift
 import TruvSDK
 
-let truvBrowserView = TruvBrowserView(token: token, delegate: self)
-view.addSubview(truvBrowserView)
+let truvBridgeView = TruvBridgeView(token: token, delegate: self)
+view.addSubview(truvBridgeView)
 // add constraints if needed
 ```
 
-With the `TruvBrowserView`, end-users can select their employer, authenticate with their payroll platform login credentials, and authorize the direct deposit change. Throughout the process, different events will be emitted to the delegate `func onEvent(_ event: TruvEvent)` method.
+With the `TruvBridgeView`, end-users can select their employer, authenticate with their payroll platform login credentials, and authorize the direct deposit change. Throughout the process, different events will be emitted to the delegate `func onEvent(_ event: TruvEvent)` method.
 
 ## TruvDelegate
 

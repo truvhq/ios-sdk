@@ -34,7 +34,7 @@ final class ProductViewController: UIViewController {
     }()
     private var isSettingsExpanded = false
     private var picker: SettingsPickerView?
-    private var browserView: TruvBrowserView?
+    private var browserView: TruvBridgeView?
 
     private var product: Product {
         get {
@@ -149,7 +149,7 @@ final class ProductViewController: UIViewController {
     }
 
     private func showWebView(token: String) {
-        let browserView = TruvBrowserView(token: token, delegate: self)
+        let browserView = TruvBridgeView(token: token, delegate: self)
         self.browserView = browserView
         browserView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(browserView)

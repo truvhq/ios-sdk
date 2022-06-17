@@ -1,7 +1,7 @@
 import UIKit
 import WebKit
 
-public final class TruvBrowserView: UIView {
+public final class TruvBridgeView: UIView {
 
     // MARK: - Properties
 
@@ -48,7 +48,7 @@ public final class TruvBrowserView: UIView {
     }
 
     private func startLoading() {
-        guard let url = URL(string: "\(TruvBrowserView.widgetUrl)/mobile.html?bridge_token=\(token)") else { return }
+        guard let url = URL(string: "\(TruvBridgeView.widgetUrl)/mobile.html?bridge_token=\(token)") else { return }
         let request = URLRequest(url: url)
 
         webView.load(request)
@@ -58,7 +58,7 @@ public final class TruvBrowserView: UIView {
 
 // MARK: - WKUIDelegate
 
-extension TruvBrowserView: WKUIDelegate {
+extension TruvBridgeView: WKUIDelegate {
 
     public func webView(_ webView: WKWebView, createWebViewWith configuration: WKWebViewConfiguration, for navigationAction: WKNavigationAction, windowFeatures: WKWindowFeatures) -> WKWebView? {
         guard let url = navigationAction.request.url else { return nil }
@@ -70,7 +70,7 @@ extension TruvBrowserView: WKUIDelegate {
 
 // MARK: - WKNavigationDelegate
 
-extension TruvBrowserView: WKNavigationDelegate {
+extension TruvBridgeView: WKNavigationDelegate {
 
     public func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
         if let url = navigationAction.request.url,

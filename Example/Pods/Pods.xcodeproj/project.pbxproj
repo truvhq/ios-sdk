@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1250401B2DC058DE581F411F894CD8A6 /* TruvEventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCB3F958649B44CE5C905BEB48C9939 /* TruvEventType.swift */; };
-		3FE4C508577FAA087356384815CCB6F4 /* TruvBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C41C8EBD407D5AE22011D075CDF85E /* TruvBrowserView.swift */; };
-		5BEE5D52B52ECB94A328F8EE0AF37015 /* TruvEmployer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5A07FED788455376E7E957E0F21A0E /* TruvEmployer.swift */; };
-		5D56834B3406681B6BCB715FDD379625 /* TruvScriptMessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B0723D52F70690A9A16193B83B4560 /* TruvScriptMessageHandler.swift */; };
+		06290A7D55168EF4BA12633886C11D09 /* TruvEventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCB3F958649B44CE5C905BEB48C9939 /* TruvEventType.swift */; };
+		0FEE22CA202E101A1DBA7661E1D04305 /* TruvBridgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD09941E3AD0D7FE3F3A732247993CF /* TruvBridgeView.swift */; };
+		16986B68EA6C43A674E24926BE85DA65 /* TruvSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 758BF8C0DBB709CA0FBDE048C61C1339 /* TruvSDK-dummy.m */; };
+		2638FEB5C59EFCEA96A2707D9AB02CB7 /* TruvDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A89D6EA8976A4D28DA05464744DEA6 /* TruvDelegate.swift */; };
+		3D4B00DB6A5CB145B06FD814156204C5 /* TruvEmployer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5A07FED788455376E7E957E0F21A0E /* TruvEmployer.swift */; };
+		53E59F6E79260C34CAD70CE4E91B46FA /* TruvEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED866F6CD16B3BF81CB9E1726120B9D /* TruvEvent.swift */; };
 		71900939FAF9E1BB1D1AB789F5CAE7E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		7F964CA30A53124A764046E3540D8FB1 /* TruvDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117ADA10D0D7DFBCECEB8A8CA16871E6 /* TruvDelegate.swift */; };
+		71FCC68CE8223EBF3C75331864BBE685 /* TruvSuccessPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03972FA0DECD646A225E488A7E9220A1 /* TruvSuccessPayload.swift */; };
+		737DEF8710233F2EDA88790450A3DAEC /* TruvScriptMessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B0723D52F70690A9A16193B83B4560 /* TruvScriptMessageHandler.swift */; };
 		8772F7E3C4B76448177A795A859B11B0 /* Pods-TruvSDKExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DB83C7397C60C2965821394253A9AA /* Pods-TruvSDKExample-dummy.m */; };
+		A352C4C2D54A3BBD861022E0C9841243 /* TruvEventPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D413DEAA5572CA381631F5BC691DBC /* TruvEventPayload.swift */; };
 		B6EC323D6A1F55E628A7636F0FF41F6D /* TruvSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5900CC04D6A95A50E6EABC31F3A4206A /* TruvSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BCC4BE8679C31C606E71F8A17E64CE44 /* TruvSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 758BF8C0DBB709CA0FBDE048C61C1339 /* TruvSDK-dummy.m */; };
 		C5A66C2FC44154B9B061670A6BE24536 /* Pods-TruvSDKExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B6401729ABC6662023FA6BE3DC73174 /* Pods-TruvSDKExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5EA0397D3E2F7B8F3ADD1D1EE9F0620 /* TruvEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED866F6CD16B3BF81CB9E1726120B9D /* TruvEvent.swift */; };
-		D7BC57A3571E317A35B4CF2C1843E96B /* TruvSuccessPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03972FA0DECD646A225E488A7E9220A1 /* TruvSuccessPayload.swift */; };
-		D81E3E6A82977A58AFE6004EB07E7F53 /* TruvEventPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D413DEAA5572CA381631F5BC691DBC /* TruvEventPayload.swift */; };
-		E333EACE5E06CBAE9AA5D6055B6CF189 /* TruvError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0595A3345844E7E30E74787657126C9F /* TruvError.swift */; };
+		D88819EC4EF801028A36F0EA70779242 /* TruvError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0595A3345844E7E30E74787657126C9F /* TruvError.swift */; };
 		F4627911DE593BE672B62C112CFD66B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +40,6 @@
 		0595A3345844E7E30E74787657126C9F /* TruvError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TruvError.swift; sourceTree = "<group>"; };
 		0C5155B4BB3D96E64D1B38ADA6B16A7A /* Pods_TruvSDKExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TruvSDKExample.framework; path = "Pods-TruvSDKExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10B0723D52F70690A9A16193B83B4560 /* TruvScriptMessageHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TruvScriptMessageHandler.swift; sourceTree = "<group>"; };
-		117ADA10D0D7DFBCECEB8A8CA16871E6 /* TruvDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TruvDelegate.swift; sourceTree = "<group>"; };
 		1B6401729ABC6662023FA6BE3DC73174 /* Pods-TruvSDKExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TruvSDKExample-umbrella.h"; sourceTree = "<group>"; };
 		2ECB2DAAF1A1209ABD14532184289DCC /* Pods-TruvSDKExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TruvSDKExample-frameworks.sh"; sourceTree = "<group>"; };
 		3B30E3FF2775751F9837AF76A5583465 /* Pods-TruvSDKExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TruvSDKExample-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -55,13 +54,14 @@
 		742507C96F4F93EF201217475FB8E15A /* TruvSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TruvSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		758BF8C0DBB709CA0FBDE048C61C1339 /* TruvSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TruvSDK-dummy.m"; sourceTree = "<group>"; };
 		85DB83C7397C60C2965821394253A9AA /* Pods-TruvSDKExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TruvSDKExample-dummy.m"; sourceTree = "<group>"; };
-		95C41C8EBD407D5AE22011D075CDF85E /* TruvBrowserView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TruvBrowserView.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A80F8E66D569ECA178AC245E7D6DFB0E /* TruvSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TruvSDK.debug.xcconfig; sourceTree = "<group>"; };
+		B4A89D6EA8976A4D28DA05464744DEA6 /* TruvDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TruvDelegate.swift; sourceTree = "<group>"; };
 		BDAAA6C89A58A9287E1BCD35C787EA3D /* Pods-TruvSDKExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TruvSDKExample.modulemap"; sourceTree = "<group>"; };
 		D36D2CC3CB0C557AE459E28D1DD29BED /* TruvSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TruvSDK.framework; path = TruvSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B662E11D733B14A0910F779ECE4349 /* Pods-TruvSDKExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TruvSDKExample.release.xcconfig"; sourceTree = "<group>"; };
 		EBCB3F958649B44CE5C905BEB48C9939 /* TruvEventType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TruvEventType.swift; sourceTree = "<group>"; };
+		EDD09941E3AD0D7FE3F3A732247993CF /* TruvBridgeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TruvBridgeView.swift; sourceTree = "<group>"; };
 		EE8C6C4E2913B6FA74CA81212667881F /* TruvSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TruvSDK.release.xcconfig; sourceTree = "<group>"; };
 		F8D413DEAA5572CA381631F5BC691DBC /* TruvEventPayload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TruvEventPayload.swift; sourceTree = "<group>"; };
 		F92725E6F38C546866D974ED43BDCA8E /* Pods-TruvSDKExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TruvSDKExample.debug.xcconfig"; sourceTree = "<group>"; };
@@ -98,6 +98,16 @@
 			path = Sources/TruvSDK/Classes/Handlers;
 			sourceTree = "<group>";
 		};
+		1AA20B2B6AD03631093B7F29F7391411 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EDD09941E3AD0D7FE3F3A732247993CF /* TruvBridgeView.swift */,
+				B4A89D6EA8976A4D28DA05464744DEA6 /* TruvDelegate.swift */,
+			);
+			name = View;
+			path = Sources/TruvSDK/Classes/View;
+			sourceTree = "<group>";
+		};
 		232A003BDD9332B4CFD99AD2B3E01E8A /* TruvSDK */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,7 +115,7 @@
 				BE1528D8D60E2A9A6E7CB1F7CB61A84F /* Models */,
 				48F0DE7AD1FEB078E5D4815922456FA6 /* Pod */,
 				E7EDDC607CFE87684C843839A2C8E11A /* Support Files */,
-				C91655AFC14A0E12B24F318A6DE28C9B /* View */,
+				1AA20B2B6AD03631093B7F29F7391411 /* View */,
 			);
 			name = TruvSDK;
 			path = ../..;
@@ -185,16 +195,6 @@
 			path = Sources/TruvSDK/Classes/Models;
 			sourceTree = "<group>";
 		};
-		C91655AFC14A0E12B24F318A6DE28C9B /* View */ = {
-			isa = PBXGroup;
-			children = (
-				95C41C8EBD407D5AE22011D075CDF85E /* TruvBrowserView.swift */,
-				117ADA10D0D7DFBCECEB8A8CA16871E6 /* TruvDelegate.swift */,
-			);
-			name = View;
-			path = Sources/TruvSDK/Classes/View;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -256,7 +256,7 @@
 			buildConfigurationList = 911826DACF2BE5DC53BF6CFDBA5ED143 /* Build configuration list for PBXNativeTarget "TruvSDK" */;
 			buildPhases = (
 				D31AFE0116790E6023D46F7F3A4579DA /* Headers */,
-				FF49BB8C7A291B40F74376F364AFD22A /* Sources */,
+				58DFAE20239911803E50EF50B8E21304 /* Sources */,
 				CB39B4F8477A38B7825CE71B61196242 /* Frameworks */,
 				B897614608EFD3AB4B673C07A2B28019 /* Resources */,
 			);
@@ -334,28 +334,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		58DFAE20239911803E50EF50B8E21304 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FEE22CA202E101A1DBA7661E1D04305 /* TruvBridgeView.swift in Sources */,
+				2638FEB5C59EFCEA96A2707D9AB02CB7 /* TruvDelegate.swift in Sources */,
+				3D4B00DB6A5CB145B06FD814156204C5 /* TruvEmployer.swift in Sources */,
+				D88819EC4EF801028A36F0EA70779242 /* TruvError.swift in Sources */,
+				53E59F6E79260C34CAD70CE4E91B46FA /* TruvEvent.swift in Sources */,
+				A352C4C2D54A3BBD861022E0C9841243 /* TruvEventPayload.swift in Sources */,
+				06290A7D55168EF4BA12633886C11D09 /* TruvEventType.swift in Sources */,
+				737DEF8710233F2EDA88790450A3DAEC /* TruvScriptMessageHandler.swift in Sources */,
+				16986B68EA6C43A674E24926BE85DA65 /* TruvSDK-dummy.m in Sources */,
+				71FCC68CE8223EBF3C75331864BBE685 /* TruvSuccessPayload.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7E4AA7CEC814D8D8B9CD60C0AB8B7934 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8772F7E3C4B76448177A795A859B11B0 /* Pods-TruvSDKExample-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FF49BB8C7A291B40F74376F364AFD22A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3FE4C508577FAA087356384815CCB6F4 /* TruvBrowserView.swift in Sources */,
-				7F964CA30A53124A764046E3540D8FB1 /* TruvDelegate.swift in Sources */,
-				5BEE5D52B52ECB94A328F8EE0AF37015 /* TruvEmployer.swift in Sources */,
-				E333EACE5E06CBAE9AA5D6055B6CF189 /* TruvError.swift in Sources */,
-				C5EA0397D3E2F7B8F3ADD1D1EE9F0620 /* TruvEvent.swift in Sources */,
-				D81E3E6A82977A58AFE6004EB07E7F53 /* TruvEventPayload.swift in Sources */,
-				1250401B2DC058DE581F411F894CD8A6 /* TruvEventType.swift in Sources */,
-				5D56834B3406681B6BCB715FDD379625 /* TruvScriptMessageHandler.swift in Sources */,
-				BCC4BE8679C31C606E71F8A17E64CE44 /* TruvSDK-dummy.m in Sources */,
-				D7BC57A3571E317A35B4CF2C1843E96B /* TruvSuccessPayload.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
