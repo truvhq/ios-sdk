@@ -166,7 +166,7 @@ final class ProductViewController: UIViewController {
         tableView.reloadData()
     }
 
-    private func closeWidget() {
+    private func closeBridge() {
         browserView?.removeFromSuperview()
     }
 
@@ -259,18 +259,18 @@ extension ProductViewController: TruvDelegate {
     func onEvent(_ event: TruvEvent) {
         switch event {
         case .onClose:
-            consoleInput?.addLogs(name: "widget closed", message: nil)
-            closeWidget()
+            consoleInput?.addLogs(name: "bridge closed", message: nil)
+            closeBridge()
         case .onError:
-            consoleInput?.addLogs(name: "widget error", message: nil)
-            closeWidget()
+            consoleInput?.addLogs(name: "bridge error", message: nil)
+            closeBridge()
         case .onEvent(let payload):
-            consoleInput?.addLogs(name: "widget event", message: payload.toJSONString())
+            consoleInput?.addLogs(name: "bridge event", message: payload.toJSONString())
         case .onLoad:
-            consoleInput?.addLogs(name: "widget opened", message: nil)
+            consoleInput?.addLogs(name: "bridge opened", message: nil)
         case .onSuccess(let payload):
-            consoleInput?.addLogs(name: "widget succeeded", message: payload.toJSONString())
-            closeWidget()
+            consoleInput?.addLogs(name: "bridge succeeded", message: payload.toJSONString())
+            closeBridge()
         }
     }
 

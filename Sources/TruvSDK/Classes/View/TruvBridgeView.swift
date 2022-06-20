@@ -8,7 +8,7 @@ public final class TruvBridgeView: UIView {
     private let webView: WKWebView
     private let token: String
 
-    private static let widgetUrl = "https://cdn.citadelid.com"
+    private static let widgetUrl = "https://cdn.truv.com"
 
     // MARK: - Lifecycle
 
