@@ -1,11 +1,11 @@
 public struct TruvSuccessPayload: Codable {
 
-    let publicToken: String
-    let metadata: Metadata
+    public let publicToken: String
+    public let metadata: Metadata
 
     public struct Metadata: Codable {
-        let taskId: String
-        let employer: TruvEmployer?
+        public let taskId: String
+        public let employer: TruvEmployer?
 
         private enum CodingKeys: String, CodingKey {
             case taskId = "task_id"

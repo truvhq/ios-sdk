@@ -1,8 +1,8 @@
 public struct TruvError: Codable {
 
-    let type: ErrorType
-    let code: ErrorCode
-    let message: String
+    public let type: ErrorType
+    public let code: ErrorCode
+    public let message: String
 
     public enum ErrorType: String, Codable {
         case link = "LINK_ERROR"

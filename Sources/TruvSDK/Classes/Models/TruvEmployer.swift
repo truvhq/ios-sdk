@@ -1,3 +1,3 @@
 public struct TruvEmployer: Codable {
-    let name: String
+    public let name: String
 }

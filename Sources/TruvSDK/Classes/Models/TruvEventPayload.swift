@@ -1,17 +1,17 @@
 public struct TruvEventPayload: Codable {
 
-    let payload: Payload?
-    let eventType: EventType
+    public let payload: Payload?
+    public let eventType: EventType
 
     public struct Payload: Codable {
-        let bridgeToken: String?
-        let productType: String?
-        let viewName: String?
-        let employer: TruvEmployer?
-        let publicToken: String?
-        let taskId: String?
-        let providerId: String?
-        let error: TruvError?
+        public let bridgeToken: String?
+        public let productType: String?
+        public let viewName: String?
+        public let employer: TruvEmployer?
+        public let publicToken: String?
+        public let taskId: String?
+        public let providerId: String?
+        public let error: TruvError?
 
         private enum CodingKeys: String, CodingKey {
             case bridgeToken = "bridge_token"
@@ -30,7 +30,7 @@ public struct TruvEventPayload: Codable {
         case eventType = "event_type"
     }
 
-    enum EventType: String, Codable {
+    public enum EventType: String, Codable {
         case load = "LOAD"
         case open = "OPEN"
         case screenView = "SCREEN_VIEW"
