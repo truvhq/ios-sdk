@@ -1,6 +1,0 @@
-framework module Pods_TruvSDKExample {
-  umbrella header "Pods-TruvSDKExample-umbrella.h"
-
-  export *
-  module * { export * }
-}
