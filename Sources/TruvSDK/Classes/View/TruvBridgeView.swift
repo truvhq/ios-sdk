@@ -74,7 +74,7 @@ extension TruvBridgeView: WKNavigationDelegate {
 
     public func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
         if let url = navigationAction.request.url,
-           !["cdn.citadelid.com", "cdn.truv.com", "citadelid-resources.s3.us-west-2.amazonaws.com"].contains(url.host) {
+           !["cdn.citadelid.com", "cdn.truv.com", "citadelid-resources.s3.us-west-2.amazonaws.com", "magic-login-proxy.truv.com"].contains(url.host) {
             UIApplication.shared.open(url)
             decisionHandler(.cancel)
             return
