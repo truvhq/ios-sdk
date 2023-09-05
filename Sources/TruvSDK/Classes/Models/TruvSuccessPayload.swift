@@ -1,3 +1,5 @@
+import Foundation
+
 public struct TruvSuccessPayload: Codable {
 
     public let publicToken: String
@@ -17,5 +19,12 @@ public struct TruvSuccessPayload: Codable {
         case publicToken = "public_token"
         case metadata
     }
+    
+    
+    var dictionary: [String: Any]? {
+    guard let data = try? JSONEncoder().encode(self) else { return nil }
+    return (try? JSONSerialization.jsonObject(with: data, options: .allowFragments)).flatMap { $0 as? [String: Any] }
+    }
+    
     
 }

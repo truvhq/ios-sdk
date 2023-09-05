@@ -34,5 +34,22 @@ public enum TruvEvent {
             return .onSuccess(successPayload)
         }
     }
+    
+    var rawValue: Dictionary<String, Any> {
+        get {
+            switch self {
+            case .onClose:
+                return ["type": "onClose"]
+            case .onError:
+                return ["type": "onError"]
+            case let .onEvent(payload):
+                return ["type": "onEvent", "payload": payload?.dictionary as Any]
+            case let .onSuccess(payload):
+                return ["type": "onSuccess", "payload": payload?.dictionary as Any]
+            case .onLoad:
+                return ["type": "onLoad"]
+            }
+        }
+    }
 
 }
