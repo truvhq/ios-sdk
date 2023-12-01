@@ -2,18 +2,24 @@
 import PackageDescription
 
 let package = Package(
-    name: "TruvSDK",
+    name: "TruvSDKPackage",
     platforms: [.iOS(.v13)],
     products: [
         .library(
-            name: "TruvSDK",
-            targets: ["TruvSDK"]),
+            name: "TruvSDKPackage",
+            targets: ["TruvSDKPackage", "TruvSDK"]
+        ),
     ],
     dependencies: [],
     targets: [
         .target(
+            name: "TruvSDKPackage",
+            dependencies: []
+        ),
+        .binaryTarget(
             name: "TruvSDK",
-            dependencies: []),
+            path: "TruvSDK.xcframework"
+        )
     ],
     swiftLanguageVersions: [.v5]
 )
