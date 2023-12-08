@@ -85,6 +85,7 @@ class LoginWebViewController: UIViewController {
 
     private func setupBindings() {
         viewModel.$state
+            .receive(on: DispatchQueue.main)
             .sink { [weak self] state in
                 self?.handleStateChange(newState: state)
             }
