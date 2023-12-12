@@ -134,7 +134,8 @@ extension OAuthWebViewController: WKNavigationDelegate {
             return
         }
 
-        if url.contains(Constants.oAuthResultURL) {
+        let oAuthURL = TruvBridgeView.config.baseURL + Constants.oAuthResultURL
+        if url.contains(oAuthURL) {
             viewModel.handle(.onComplete)
         }
 

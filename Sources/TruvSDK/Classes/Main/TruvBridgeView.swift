@@ -8,14 +8,19 @@ public final class TruvBridgeView: UIView {
     private let webView: WKWebView
     private let token: String
 
-    private static let widgetUrl = "https://cdn.truv.com"
+    static var config: TruvSDKConfig = .default
 
     private let router = TruvBridgeViewRouter()
 
     // MARK: - Lifecycle
 
-    public init(token: String, delegate: TruvDelegate? = nil) {
+    public init(
+        token: String,
+        delegate: TruvDelegate? = nil,
+        config: TruvSDKConfig = .default
+    ) {
         self.token = token
+        Self.config = config
 
         let configuration = WKWebViewConfiguration()
         webView = WKWebView(frame: .zero, configuration: configuration)
@@ -56,7 +61,7 @@ public final class TruvBridgeView: UIView {
     }
 
     private func startLoading() {
-        guard let url = URL(string: "\(TruvBridgeView.widgetUrl)/mobile.html?bridge_token=\(token)") else {
+        guard let url = URL(string: "\(TruvBridgeView.config.baseURL)/mobile.html?bridge_token=\(token)") else {
             return
         }
         let modifiedURL = addQueryParameters(to: url)

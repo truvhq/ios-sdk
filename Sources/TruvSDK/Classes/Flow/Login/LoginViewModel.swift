@@ -87,7 +87,7 @@ extension LoginViewModel {
         return [
             "platform:ios",
             "source:ios-app",
-            "sdk_version:"
+            "sdk_version:\(Constants.currentPackageVersion)"
         ]
     }
 
