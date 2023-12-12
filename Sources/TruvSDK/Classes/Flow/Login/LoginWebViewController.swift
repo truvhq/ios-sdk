@@ -186,7 +186,7 @@ class LoginWebViewController: UIViewController {
 extension LoginWebViewController: WKNavigationDelegate {
 
     func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
-        guard let url = navigationAction.request.url else {
+        guard navigationAction.request.url != nil else {
             decisionHandler(.allow)
             return
         }
