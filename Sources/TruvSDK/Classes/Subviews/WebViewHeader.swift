@@ -7,7 +7,6 @@ class WebViewHeader: UIView {
         button.translatesAutoresizingMaskIntoConstraints = false
         button.setImage(.init(systemName: "arrow.clockwise"), for: [])
         button.addTarget(self, action: #selector(refreshButtonPressed), for: .touchUpInside)
-        button.tintColor = .black
         return button
     }()
 
@@ -72,7 +71,7 @@ class WebViewHeader: UIView {
             refreshButton.widthAnchor.constraint(equalToConstant: 24),
             refreshButton.heightAnchor.constraint(equalToConstant: 24),
 
-            heightAnchor.constraint(equalToConstant: 44),
+            heightAnchor.constraint(equalToConstant: 52),
 
             lockImage.widthAnchor.constraint(equalToConstant: 16),
             lockImage.heightAnchor.constraint(equalToConstant: 16),
