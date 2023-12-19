@@ -1,6 +1,6 @@
 import Foundation
 
-public enum TruvEvent {
+public enum TruvEvent : Encodable {
 
     case onClose
     case onError
