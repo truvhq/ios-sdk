@@ -84,10 +84,13 @@ extension LoginViewModel {
     }
 
     private func generateTaskTags() -> [String] {
+        let sdkVersion = TruvBridgeView.config.platform.sdkVersion ?? Constants.currentPackageVersion
+        let source = TruvBridgeView.config.platform.platformName
+
         return [
             "platform:ios",
-            "source:ios-app",
-            "sdk_version:\(Constants.currentPackageVersion)"
+            "source:\(source)",
+            "sdk_version:\(sdkVersion)"
         ]
     }
 
