@@ -1,5 +1,6 @@
 import UIKit
 import WebKit
+import SafariServices
 
 public final class TruvBridgeView: UIView {
 
@@ -145,7 +146,8 @@ extension TruvBridgeView: WKUIDelegate {
 
     public func webView(_ webView: WKWebView, createWebViewWith configuration: WKWebViewConfiguration, for navigationAction: WKNavigationAction, windowFeatures: WKWindowFeatures) -> WKWebView? {
         guard let url = navigationAction.request.url else { return nil }
-        UIApplication.shared.open(url)
+
+        router.showSafariViewController(with: url)
         return nil
     }
 

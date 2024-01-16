@@ -1,4 +1,5 @@
 import UIKit
+import SafariServices
 
 class TruvBridgeViewRouter {
 
@@ -27,6 +28,15 @@ class TruvBridgeViewRouter {
     func dismissOAuthController() {
         if let oauthController = UIApplication.topViewController() as? OAuthWebViewController {
             oauthController.dismiss(animated: true)
+        }
+    }
+
+    func showSafariViewController(with url: URL) {
+        if let topMostController = UIApplication.topViewController() {
+            let safariVC = SFSafariViewController(url: url)
+            topMostController.present(safariVC, animated: true)
+        } else {
+            UIApplication.shared.open(url)
         }
     }
 }
