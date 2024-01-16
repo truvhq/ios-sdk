@@ -51,6 +51,7 @@ extension TruvScriptMessageHandler {
             payload = try? JSONSerialization.data(withJSONObject: payloadJson, options: .prettyPrinted)
         }
         let event = TruvEvent.make(with: event, payload: payload)
+        event.triggerHapticFeedback()
 
         delegate?.onEvent(event)
     }

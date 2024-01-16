@@ -8,6 +8,17 @@ public enum TruvEvent : Encodable {
     case onLoad
     case onSuccess(TruvSuccessPayload?)
 
+    internal func triggerHapticFeedback() {
+        switch self {
+            case .onError:
+                Vibration.error.vibrate()
+            case .onSuccess:
+                Vibration.success.vibrate()
+            default:
+                break
+        }
+    }
+
     static func make(with event: TruvEventType, payload: Data?) -> Self {
         switch event {
         case .onClose:
