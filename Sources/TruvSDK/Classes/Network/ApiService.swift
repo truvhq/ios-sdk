@@ -15,9 +15,6 @@ final class APIService {
         request.httpBody = data.data(using: .utf8)
 
         let session = URLSession(configuration: URLSessionConfiguration.ephemeral)
-        let (responseData, _) = try await session.data(for: request)
-
-        print(String(bytes: responseData, encoding: .utf8) ?? "")
     }
 
     func downloadScript(url: String) async throws -> String? {
@@ -31,7 +28,6 @@ final class APIService {
         let (responseData, response) = try await session.data(for: request)
         if let httpResponse = response as? HTTPURLResponse {
             if httpResponse.statusCode != 200 {
-                print("no script found with url \(url)")
                 return nil
             }
         }
