@@ -141,8 +141,6 @@ class LoginWebViewController: UIViewController {
                         return
                     }
 
-                    print("poll login...")
-
                     self.webview.evaluateJavaScript("window.document.evaluate(\"\(successfulLoginSelector)\", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue != null")
                     { (result, error) in
                         if let castedResult = result as? Int, castedResult == 1 {
@@ -204,7 +202,6 @@ extension LoginWebViewController: WKScriptMessageHandler {
         }
 
         if message.name == "callback" {
-            print("script callback called", message.body)
             viewModel.handle(.scriptCallbackCalled(data: message.body as? String ?? "{}"))
         }
     }

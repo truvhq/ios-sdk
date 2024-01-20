@@ -63,12 +63,10 @@ extension TruvScriptMessageHandler {
     ) {
         if eventType == "START_EXTERNAL_LOGIN" {
             guard let data = try? JSONSerialization.data(withJSONObject: eventPayload, options: []) else {
-                print("cant encode")
                 return
             }
 
             guard let loginData = try? JSONDecoder().decode(TruvProviderAuthDetails.self, from: data) else {
-                print("cant decode")
                 return
             }
 
