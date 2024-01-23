@@ -24,7 +24,6 @@ final class TruvScriptMessageHandler: NSObject, WKScriptMessageHandler {
             let eventPayload = payload["payload"] as? [String: Any]
         {
             handleExternalAuthorization(body: body, eventPayload: eventPayload, eventType: eventType)
-            return
         }
         
         if
@@ -33,7 +32,6 @@ final class TruvScriptMessageHandler: NSObject, WKScriptMessageHandler {
             let name = TruvEventType(rawValue: eventName)
         {
             handleEvent(body: body, event: name)
-            return
         }
     }
 }

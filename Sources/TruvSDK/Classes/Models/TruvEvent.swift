@@ -12,8 +12,11 @@ public enum TruvEvent : Encodable {
         switch self {
             case .onError:
                 Vibration.error.vibrate()
-            case .onSuccess:
-                Vibration.success.vibrate()
+            case .onEvent(let eventPayload):
+                if eventPayload?.eventType == .screenView,
+                   eventPayload?.payload?.viewName == "SUCCESS" {
+                    Vibration.success.vibrate()
+                }
             default:
                 break
         }
