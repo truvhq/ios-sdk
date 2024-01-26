@@ -38,10 +38,11 @@ public final class TruvBridgeController: UIViewController {
     }
 
     private func setupView() {
+        view.backgroundColor = .white
         view.addSubview(truvBridgeView)
 
         NSLayoutConstraint.activate([
-            truvBridgeView.topAnchor.constraint(equalTo: view.topAnchor),
+            truvBridgeView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
             truvBridgeView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
             truvBridgeView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             truvBridgeView.trailingAnchor.constraint(equalTo: view.trailingAnchor)

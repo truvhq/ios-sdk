@@ -39,6 +39,8 @@ public final class TruvBridgeView: UIView {
         webView.configuration.userContentController.add(handler, name: "iosListener")
         webView.uiDelegate = self
         webView.navigationDelegate = self
+        webView.scrollView.contentInsetAdjustmentBehavior = .never
+
         setupLayout()
         startLoading()
     }
