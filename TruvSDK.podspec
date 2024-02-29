@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'TruvSDK'
+  s.name             = 'TruvSDKPackage'
   s.version          = '1.1.4'
   s.summary          = 'The TruvSDK for iOS.'
   s.description      = <<-DESC
