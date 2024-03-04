@@ -3648,6 +3648,50 @@
           },
           {
             "kind": "Var",
+            "name": "isDebug",
+            "printedName": "isDebug",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7TruvSDK0A9SDKConfigV7isDebugSbvp",
+            "mangledName": "$s7TruvSDK0A9SDKConfigV7isDebugSbvp",
+            "moduleName": "TruvSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7TruvSDK0A9SDKConfigV7isDebugSbvg",
+                "mangledName": "$s7TruvSDK0A9SDKConfigV7isDebugSbvg",
+                "moduleName": "TruvSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "platform",
             "printedName": "platform",
             "children": [
@@ -3693,7 +3737,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(baseURL:platform:)",
+            "printedName": "init(baseURL:isDebug:platform:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3709,6 +3753,13 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "TruvPlatform",
                 "printedName": "TruvSDK.TruvPlatform",
                 "hasDefaultArg": true,
@@ -3716,8 +3767,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7TruvSDK0A9SDKConfigV7baseURL8platformACSS_AA0A8PlatformOtcfc",
-            "mangledName": "$s7TruvSDK0A9SDKConfigV7baseURL8platformACSS_AA0A8PlatformOtcfc",
+            "usr": "s:7TruvSDK0A9SDKConfigV7baseURL7isDebug8platformACSS_SbAA0A8PlatformOtcfc",
+            "mangledName": "$s7TruvSDK0A9SDKConfigV7baseURL7isDebug8platformACSS_SbAA0A8PlatformOtcfc",
             "moduleName": "TruvSDK",
             "declAttributes": [
               "AccessControl"
@@ -4595,84 +4646,84 @@
     {
       "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeView.swift",
       "kind": "StringLiteral",
-      "offset": 1314,
+      "offset": 1361,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1471,
+      "offset": 1518,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1537,
+      "offset": 1584,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeView.swift",
       "kind": "StringLiteral",
-      "offset": 1968,
+      "offset": 2015,
       "length": 68,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeView.swift",
       "kind": "StringLiteral",
-      "offset": 2001,
+      "offset": 2048,
       "length": 1,
       "value": "\"\/mobile.html?bridge_token=\""
     },
     {
       "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeView.swift",
       "kind": "StringLiteral",
-      "offset": 2035,
+      "offset": 2082,
       "length": 9,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2359,
+      "offset": 2406,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeView.swift",
       "kind": "Array",
-      "offset": 2523,
+      "offset": 2570,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeView.swift",
       "kind": "StringLiteral",
-      "offset": 2623,
+      "offset": 2670,
       "length": 13,
       "value": "\"isMobileApp\""
     },
     {
       "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeView.swift",
       "kind": "StringLiteral",
-      "offset": 2645,
+      "offset": 2692,
       "length": 6,
       "value": "\"true\""
     },
     {
       "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeView.swift",
       "kind": "StringLiteral",
-      "offset": 2685,
+      "offset": 2732,
       "length": 24,
       "value": "\"__TruvExternalFeatures\""
     },
     {
       "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeView.swift",
       "kind": "StringLiteral",
-      "offset": 2718,
+      "offset": 2765,
       "length": 20,
       "value": "\"external_app_login\""
     },
@@ -4686,42 +4737,42 @@
     {
       "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeView.swift",
       "kind": "StringLiteral",
-      "offset": 3908,
+      "offset": 3955,
       "length": 47,
       "value": "\"window.bridge?.onExternalLoginSuccess(\""
     },
     {
       "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeView.swift",
       "kind": "StringLiteral",
-      "offset": 3953,
+      "offset": 4000,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeView.swift",
       "kind": "StringLiteral",
-      "offset": 5126,
+      "offset": 5173,
       "length": 19,
       "value": "\"cdn.citadelid.com\""
     },
     {
       "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeView.swift",
       "kind": "StringLiteral",
-      "offset": 5147,
+      "offset": 5194,
       "length": 14,
       "value": "\"cdn.truv.com\""
     },
     {
       "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeView.swift",
       "kind": "StringLiteral",
-      "offset": 5163,
+      "offset": 5210,
       "length": 48,
       "value": "\"citadelid-resources.s3.us-west-2.amazonaws.com\""
     },
     {
       "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeView.swift",
       "kind": "StringLiteral",
-      "offset": 5213,
+      "offset": 5260,
       "length": 28,
       "value": "\"magic-login-proxy.truv.com\""
     },
@@ -5546,8 +5597,15 @@
     },
     {
       "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvSDKConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 195,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvSDKConfig.swift",
       "kind": "StringLiteral",
-      "offset": 335,
+      "offset": 426,
       "length": 22,
       "value": "\"https:\/\/cdn.truv.com\""
     }

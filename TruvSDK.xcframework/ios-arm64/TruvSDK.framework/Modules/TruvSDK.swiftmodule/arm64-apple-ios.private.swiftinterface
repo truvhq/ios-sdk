@@ -125,8 +125,9 @@ public enum TruvPlatform {
 }
 public struct TruvSDKConfig {
   public let baseURL: Swift.String
+  public let isDebug: Swift.Bool
   public let platform: TruvSDK.TruvPlatform
-  public init(baseURL: Swift.String, platform: TruvSDK.TruvPlatform = .native)
+  public init(baseURL: Swift.String, isDebug: Swift.Bool = false, platform: TruvSDK.TruvPlatform = .native)
   public static var `default`: TruvSDK.TruvSDKConfig
 }
 public enum TruvEventType : Swift.String {
