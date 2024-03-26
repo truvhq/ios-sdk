@@ -1,0 +1,11 @@
+framework module TruvSDKFramework {
+  umbrella header "TruvSDKFramework.h"
+  export *
+
+  module * { export * }
+}
+
+module TruvSDKFramework.Swift {
+  header "TruvSDKFramework-Swift.h"
+  requires objc
+}
