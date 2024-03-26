@@ -11,9 +11,9 @@ Pod::Spec.new do |s|
   s.author           = { 'Truv' => 'https://truv.com' }
   s.source           = { :git => 'https://github.com/truvhq/ios-sdk.git', :tag => s.version.to_s }
 
+  s.vendored_frameworks = "TruvSDK.xcframework"
   s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
-
-  s.source_files = 'Sources/**/*'
+  s.requires_arc = true
 
 end
