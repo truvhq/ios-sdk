@@ -7,19 +7,13 @@ let package = Package(
     products: [
         .library(
             name: "TruvSDK",
-            targets: ["TruvSDK", "TruvSDKFramework"]
+            targets: ["TruvSDK"]
         ),
     ],
-    dependencies: [],
     targets: [
-        .target(
-            name: "TruvSDK",
-            dependencies: []
-        ),
         .binaryTarget(
-            name: "TruvSDKFramework",
-            path: "TruvSDKFramework.xcframework"
-        )
+            name: "TruvSDK",
+            path: "TruvSDK.xcframework")
     ],
     swiftLanguageVersions: [.v5]
 )
