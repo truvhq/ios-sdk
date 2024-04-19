@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		KbSBzdeIdjzlztwYb84pXWzV+Sc=
+		pd86IiQsPLZxwSghmQb/RrAZ6EU=
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		T/aT97DaV2U5bUNIs3cm35nEML4=
+		3X0G6OBKMfgHizqIlhIKonqRNd8=
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		6gA07Lx0y5VL/SDArCeAJcHKGvA=
+		qyrrGt7nkZfd0voSlrCRvqKCgqg=
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		6gA07Lx0y5VL/SDArCeAJcHKGvA=
+		qyrrGt7nkZfd0voSlrCRvqKCgqg=
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		escOc4OJCBlWoyKNPORj/6C9Zg4=
+		TtBiqe6jNEFFLoGGHT+VPx1ectw=
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		T/aT97DaV2U5bUNIs3cm35nEML4=
+		3X0G6OBKMfgHizqIlhIKonqRNd8=
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		+ZB9kO3D36dIG2Nq/81JN2sJP4g=
+		FfkoV+c9tQaEz9r6AdgndIX+SrY=
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		+ZB9kO3D36dIG2Nq/81JN2sJP4g=
+		FfkoV+c9tQaEz9r6AdgndIX+SrY=
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		LAAc57XWTLSrWq7mzNsDEGzjuX0=
+		oDErhkCjma/OESmHPoMupEgM65E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			slBF1wcHSy73/NJ+qjdz6y9gE6+ay66HaxZMZH1PVTc=
+			bjU4SR/bwL2oVckzXDT56kmE70Xb4xbOwB0YkE8/OAs=
 			</data>
 		</dict>
 		<key>Modules/TruvSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oH7Fc2AhZomhMoBqG1G/TMC4FQr1+n/T8z1zCgno7Do=
+			fZSTCWUqHjELV22v6zI2I1UWH+ZD2/IN4l2nbQTvz6U=
 			</data>
 		</dict>
 		<key>Modules/TruvSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oH7Fc2AhZomhMoBqG1G/TMC4FQr1+n/T8z1zCgno7Do=
+			fZSTCWUqHjELV22v6zI2I1UWH+ZD2/IN4l2nbQTvz6U=
 			</data>
 		</dict>
 		<key>Modules/TruvSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZDnjKJsZD/yzQTL0gKABbIQFjhdL/VjfoRD2PVZMDas=
+			kcHhbvmvwVEeogoiV8X5duGgv5gMhP2PKoQ+8K8PMEA=
 			</data>
 		</dict>
 		<key>Modules/TruvSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			slBF1wcHSy73/NJ+qjdz6y9gE6+ay66HaxZMZH1PVTc=
+			bjU4SR/bwL2oVckzXDT56kmE70Xb4xbOwB0YkE8/OAs=
 			</data>
 		</dict>
 		<key>Modules/TruvSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DLzRdxfrrqLisIQGi8dQhDF641QII+GhGzurfY+sEnk=
+			1l0ALOwFWnQoHWuAJQFirW1gkALbyPbZDhEU1uqCXjI=
 			</data>
 		</dict>
 		<key>Modules/TruvSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DLzRdxfrrqLisIQGi8dQhDF641QII+GhGzurfY+sEnk=
+			1l0ALOwFWnQoHWuAJQFirW1gkALbyPbZDhEU1uqCXjI=
 			</data>
 		</dict>
 		<key>Modules/TruvSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eKzhzkXRzE8c7doEQRF7OWRhn/j512qJIcENPhiaCYY=
+			+f1JE35l1bkc3r1QyEWfeVF/WsunARFsKoNC+YCLJ70=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
