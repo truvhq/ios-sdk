@@ -13,15 +13,18 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public struct TruvEmployer : Swift.Codable {
-  public let name: Swift.String
+public enum TruvEvent : Swift.Encodable {
+  case onClose
+  case onError
+  case onEvent(TruvSDK.TruvEventPayload?)
+  case onLoad
+  case onSuccess(TruvSDK.TruvSuccessPayload?)
   public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
 }
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class TruvBridgeController : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) public init(token: Swift.String, delegate: (any TruvSDK.TruvDelegate)? = nil, config: TruvSDK.TruvSDKConfig = .default)
-  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
-  @objc deinit
+public enum TruvPlatform {
+  case native
+  case reactNative(sdkVersion: Swift.String)
+  case flutter(sdkVersion: Swift.String)
 }
 public struct TruvSuccessPayload : Swift.Codable {
   public let publicToken: Swift.String
@@ -35,26 +38,64 @@ public struct TruvSuccessPayload : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public enum TruvEvent : Swift.Encodable {
-  case onClose
-  case onError
-  case onEvent(TruvSDK.TruvEventPayload?)
-  case onLoad
-  case onSuccess(TruvSDK.TruvSuccessPayload?)
+public struct TruvSDKConfig {
+  public let baseURL: Swift.String
+  public let isDebug: Swift.Bool
+  public let platform: TruvSDK.TruvPlatform
+  public init(baseURL: Swift.String, isDebug: Swift.Bool = false, platform: TruvSDK.TruvPlatform = .native)
+  public static var `default`: TruvSDK.TruvSDKConfig
+}
+public struct TruvError : Swift.Codable {
+  public let type: TruvSDK.TruvError.ErrorType
+  public let code: TruvSDK.TruvError.ErrorCode
+  public let message: Swift.String
+  public enum ErrorType : Swift.String, Swift.Codable {
+    case link
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public enum ErrorCode : Swift.String, Swift.Codable {
+    case noData
+    case unavailable
+    case mfaError
+    case loginError
+    case error
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
   public func encode(to encoder: any Swift.Encoder) throws
-}
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class TruvBridgeView : UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) public init(token: Swift.String, delegate: (any TruvSDK.TruvDelegate)? = nil, config: TruvSDK.TruvSDKConfig = .default)
-  @objc deinit
-}
-extension TruvSDK.TruvBridgeView : WebKit.WKUIDelegate {
-  @_Concurrency.MainActor(unsafe) @objc final public func webView(_ webView: WebKit.WKWebView, createWebViewWith configuration: WebKit.WKWebViewConfiguration, for navigationAction: WebKit.WKNavigationAction, windowFeatures: WebKit.WKWindowFeatures) -> WebKit.WKWebView?
-}
-extension TruvSDK.TruvBridgeView : WebKit.WKNavigationDelegate {
-  @_Concurrency.MainActor(unsafe) @objc final public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
+  public init(from decoder: any Swift.Decoder) throws
 }
 public protocol TruvDelegate : AnyObject {
   func onEvent(_ event: TruvSDK.TruvEvent)
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class TruvBridgeController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public init(token: Swift.String, delegate: (any TruvSDK.TruvDelegate)? = nil, config: TruvSDK.TruvSDKConfig = .default)
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
+  @objc deinit
+}
+public enum TruvEventType : Swift.String {
+  case onClose
+  case onError
+  case onEvent
+  case onLoad
+  case onSuccess
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct TruvEmployer : Swift.Codable {
+  public let name: Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct TruvEventPayload : Swift.Codable {
   public let payload: TruvSDK.TruvEventPayload.Payload?
@@ -91,60 +132,16 @@ public struct TruvEventPayload : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct TruvError : Swift.Codable {
-  public let type: TruvSDK.TruvError.ErrorType
-  public let code: TruvSDK.TruvError.ErrorCode
-  public let message: Swift.String
-  public enum ErrorType : Swift.String, Swift.Codable {
-    case link
-    public init?(rawValue: Swift.String)
-    public typealias RawValue = Swift.String
-    public var rawValue: Swift.String {
-      get
-    }
-  }
-  public enum ErrorCode : Swift.String, Swift.Codable {
-    case noData
-    case unavailable
-    case mfaError
-    case loginError
-    case error
-    public init?(rawValue: Swift.String)
-    public typealias RawValue = Swift.String
-    public var rawValue: Swift.String {
-      get
-    }
-  }
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class TruvBridgeView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public init(token: Swift.String, delegate: (any TruvSDK.TruvDelegate)? = nil, config: TruvSDK.TruvSDKConfig = .default)
+  @objc deinit
 }
-public enum TruvPlatform {
-  case native
-  case reactNative(sdkVersion: Swift.String)
-  case flutter(sdkVersion: Swift.String)
+extension TruvSDK.TruvBridgeView : WebKit.WKUIDelegate {
+  @_Concurrency.MainActor(unsafe) @objc final public func webView(_ webView: WebKit.WKWebView, createWebViewWith configuration: WebKit.WKWebViewConfiguration, for navigationAction: WebKit.WKNavigationAction, windowFeatures: WebKit.WKWindowFeatures) -> WebKit.WKWebView?
 }
-public struct TruvSDKConfig {
-  public let baseURL: Swift.String
-  public let isDebug: Swift.Bool
-  public let platform: TruvSDK.TruvPlatform
-  public init(baseURL: Swift.String, isDebug: Swift.Bool = false, platform: TruvSDK.TruvPlatform = .native)
-  public static var `default`: TruvSDK.TruvSDKConfig
+extension TruvSDK.TruvBridgeView : WebKit.WKNavigationDelegate {
+  @_Concurrency.MainActor(unsafe) @objc final public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
 }
-public enum TruvEventType : Swift.String {
-  case onClose
-  case onError
-  case onEvent
-  case onLoad
-  case onSuccess
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-extension TruvSDK.TruvEventPayload.EventType : Swift.Equatable {}
-extension TruvSDK.TruvEventPayload.EventType : Swift.Hashable {}
-extension TruvSDK.TruvEventPayload.EventType : Swift.RawRepresentable {}
 extension TruvSDK.TruvError.ErrorType : Swift.Equatable {}
 extension TruvSDK.TruvError.ErrorType : Swift.Hashable {}
 extension TruvSDK.TruvError.ErrorType : Swift.RawRepresentable {}
@@ -154,3 +151,6 @@ extension TruvSDK.TruvError.ErrorCode : Swift.RawRepresentable {}
 extension TruvSDK.TruvEventType : Swift.Equatable {}
 extension TruvSDK.TruvEventType : Swift.Hashable {}
 extension TruvSDK.TruvEventType : Swift.RawRepresentable {}
+extension TruvSDK.TruvEventPayload.EventType : Swift.Equatable {}
+extension TruvSDK.TruvEventPayload.EventType : Swift.Hashable {}
+extension TruvSDK.TruvEventPayload.EventType : Swift.RawRepresentable {}
