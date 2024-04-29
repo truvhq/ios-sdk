@@ -335,6 +335,8 @@ SWIFT_CLASS("_TtC7TruvSDK14TruvBridgeView")
 
 
 
+
+
 #endif
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -677,6 +679,8 @@ SWIFT_CLASS("_TtC7TruvSDK14TruvBridgeView")
 @interface TruvBridgeView (SWIFT_EXTENSION(TruvSDK)) <WKUIDelegate>
 - (WKWebView * _Nullable)webView:(WKWebView * _Nonnull)webView createWebViewWithConfiguration:(WKWebViewConfiguration * _Nonnull)configuration forNavigationAction:(WKNavigationAction * _Nonnull)navigationAction windowFeatures:(WKWindowFeatures * _Nonnull)windowFeatures SWIFT_WARN_UNUSED_RESULT;
 @end
+
+
 
 
 
