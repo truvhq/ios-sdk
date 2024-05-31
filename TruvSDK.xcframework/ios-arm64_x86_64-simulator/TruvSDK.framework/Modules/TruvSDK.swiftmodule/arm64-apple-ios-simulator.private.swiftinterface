@@ -54,7 +54,8 @@ public struct TruvUserAgent : Swift.Decodable, Swift.Equatable {
 public struct ProviderAuthLoginDetails : Swift.Decodable, Swift.Equatable {
   public let selector: Swift.String?
   public let url: Swift.String?
-  public init(selector: Swift.String?, url: Swift.String?)
+  public let script_url: Swift.String?
+  public init(selector: Swift.String?, url: Swift.String?, script_url: Swift.String?)
   public static func == (a: TruvSDK.ProviderAuthLoginDetails, b: TruvSDK.ProviderAuthLoginDetails) -> Swift.Bool
   public init(from decoder: any Swift.Decoder) throws
 }
