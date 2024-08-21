@@ -319,18 +319,21 @@ SWIFT_CLASS("_TtC7TruvSDK14TruvBridgeView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
+
 @class WKWebView;
-@class WKNavigationAction;
-
-@interface TruvBridgeView (SWIFT_EXTENSION(TruvSDK)) <WKNavigationDelegate>
-- (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))decisionHandler;
-@end
-
 @class WKWebViewConfiguration;
+@class WKNavigationAction;
 @class WKWindowFeatures;
 
 @interface TruvBridgeView (SWIFT_EXTENSION(TruvSDK)) <WKUIDelegate>
 - (WKWebView * _Nullable)webView:(WKWebView * _Nonnull)webView createWebViewWithConfiguration:(WKWebViewConfiguration * _Nonnull)configuration forNavigationAction:(WKNavigationAction * _Nonnull)navigationAction windowFeatures:(WKWindowFeatures * _Nonnull)windowFeatures SWIFT_WARN_UNUSED_RESULT;
+@end
+
+@class WKNavigation;
+
+@interface TruvBridgeView (SWIFT_EXTENSION(TruvSDK)) <WKNavigationDelegate>
+- (void)webView:(WKWebView * _Nonnull)webView didFailProvisionalNavigation:(WKNavigation * _Null_unspecified)navigation withError:(NSError * _Nonnull)error;
+- (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))decisionHandler;
 @end
 
 
@@ -666,18 +669,21 @@ SWIFT_CLASS("_TtC7TruvSDK14TruvBridgeView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
+
 @class WKWebView;
-@class WKNavigationAction;
-
-@interface TruvBridgeView (SWIFT_EXTENSION(TruvSDK)) <WKNavigationDelegate>
-- (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))decisionHandler;
-@end
-
 @class WKWebViewConfiguration;
+@class WKNavigationAction;
 @class WKWindowFeatures;
 
 @interface TruvBridgeView (SWIFT_EXTENSION(TruvSDK)) <WKUIDelegate>
 - (WKWebView * _Nullable)webView:(WKWebView * _Nonnull)webView createWebViewWithConfiguration:(WKWebViewConfiguration * _Nonnull)configuration forNavigationAction:(WKNavigationAction * _Nonnull)navigationAction windowFeatures:(WKWindowFeatures * _Nonnull)windowFeatures SWIFT_WARN_UNUSED_RESULT;
+@end
+
+@class WKNavigation;
+
+@interface TruvBridgeView (SWIFT_EXTENSION(TruvSDK)) <WKNavigationDelegate>
+- (void)webView:(WKWebView * _Nonnull)webView didFailProvisionalNavigation:(WKNavigation * _Null_unspecified)navigation withError:(NSError * _Nonnull)error;
+- (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))decisionHandler;
 @end
 
 
