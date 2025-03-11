@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "TruvSDK",
+    "printedName": "TruvSDK",
     "children": [
       {
         "kind": "Import",
@@ -23,7 +23,10 @@
         "name": "WebKit",
         "printedName": "WebKit",
         "declKind": "Import",
-        "moduleName": "TruvSDK"
+        "moduleName": "TruvSDK",
+        "declAttributes": [
+          "Preconcurrency"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -66,6 +69,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -97,6 +116,8 @@
             "mangledName": "$s7TruvSDK21LoginControllerBridgeV9loginInfoAA0A19ProviderAuthDetailsVvp",
             "moduleName": "TruvSDK",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "HasStorage",
               "AccessControl"
             ],
@@ -153,6 +174,8 @@
             "mangledName": "$s7TruvSDK21LoginControllerBridgeV02onC0yyAA0C6ResultVcvp",
             "moduleName": "TruvSDK",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "HasStorage",
               "AccessControl"
             ],
@@ -233,6 +256,8 @@
             "mangledName": "$s7TruvSDK21LoginControllerBridgeV9loginInfo02onC0AcA0A19ProviderAuthDetailsV_yAA0C6ResultVctcfc",
             "moduleName": "TruvSDK",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "init_kind": "Designated"
@@ -268,6 +293,7 @@
             "mangledName": "$s7TruvSDK21LoginControllerBridgeV010makeUIViewD07contextSo0gD0C7SwiftUI0gD20RepresentableContextVyACG_tF",
             "moduleName": "TruvSDK",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -309,6 +335,7 @@
             "mangledName": "$s7TruvSDK21LoginControllerBridgeV012updateUIViewD0_7contextySo0gD0C_7SwiftUI0gD20RepresentableContextVyACGtF",
             "moduleName": "TruvSDK",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -320,9 +347,25 @@
         "mangledName": "$s7TruvSDK21LoginControllerBridgeV",
         "moduleName": "TruvSDK",
         "declAttributes": [
+          "Preconcurrency",
+          "Custom",
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "UIViewControllerRepresentable",
@@ -378,6 +421,13 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -683,6 +733,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -757,6 +821,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -1254,6 +1332,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -1435,6 +1527,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -1766,6 +1872,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -2215,6 +2335,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -2241,7 +2375,10 @@
         "name": "WebKit",
         "printedName": "WebKit",
         "declKind": "Import",
-        "moduleName": "TruvSDK"
+        "moduleName": "TruvSDK",
+        "declAttributes": [
+          "Preconcurrency"
+        ]
       },
       {
         "kind": "Import",
@@ -2368,6 +2505,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -2439,6 +2590,7 @@
             "mangledName": "$s7TruvSDK0A16BridgeControllerC5token8delegate6configACSS_AA0A8Delegate_pSgAA0A9SDKConfigVtcfc",
             "moduleName": "TruvSDK",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2464,6 +2616,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -2520,6 +2673,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -2531,6 +2685,7 @@
         "mangledName": "$s7TruvSDK0A16BridgeControllerC",
         "moduleName": "TruvSDK",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "Final",
           "AccessControl",
@@ -2544,6 +2699,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2772,6 +2941,22 @@
         "moduleName": "TruvSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -3035,6 +3220,20 @@
             ],
             "enumRawTypeName": "String",
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -3361,6 +3560,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -3473,6 +3686,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -3511,6 +3738,22 @@
         "moduleName": "TruvSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -3555,7 +3798,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -3734,6 +3993,66 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "browserStorageValues",
+            "printedName": "browserStorageValues",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[TruvSDK.BrowserStorageValues]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BrowserStorageValues",
+                    "printedName": "TruvSDK.BrowserStorageValues",
+                    "usr": "s:7TruvSDK20BrowserStorageValuesV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7TruvSDK11LoginResultV20browserStorageValuesSayAA07BrowserfG0VGvp",
+            "mangledName": "$s7TruvSDK11LoginResultV20browserStorageValuesSayAA07BrowserfG0VGvp",
+            "moduleName": "TruvSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[TruvSDK.BrowserStorageValues]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BrowserStorageValues",
+                        "printedName": "TruvSDK.BrowserStorageValues",
+                        "usr": "s:7TruvSDK20BrowserStorageValuesV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7TruvSDK11LoginResultV20browserStorageValuesSayAA07BrowserfG0VGvg",
+                "mangledName": "$s7TruvSDK11LoginResultV20browserStorageValuesSayAA07BrowserfG0VGvg",
+                "moduleName": "TruvSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "encode",
             "printedName": "encode(to:)",
@@ -3769,6 +4088,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Encodable",
             "printedName": "Encodable",
             "usr": "s:SE",
@@ -3799,6 +4132,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "TruvSDK"
       },
       {
         "kind": "Import",
@@ -4463,6 +4803,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -4936,6 +5290,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -5046,6 +5414,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -5654,6 +6036,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Encodable",
             "printedName": "Encodable",
             "usr": "s:SE",
@@ -5680,7 +6076,10 @@
         "name": "WebKit",
         "printedName": "WebKit",
         "declKind": "Import",
-        "moduleName": "TruvSDK"
+        "moduleName": "TruvSDK",
+        "declAttributes": [
+          "Preconcurrency"
+        ]
       },
       {
         "kind": "Import",
@@ -5739,6 +6138,7 @@
             "mangledName": "$s7TruvSDK0A10BridgeViewC5token8delegate6configACSS_AA0A8Delegate_pSgAA0A9SDKConfigVtcfc",
             "moduleName": "TruvSDK",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -5773,6 +6173,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -5830,57 +6231,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "webView",
-            "printedName": "webView(_:didFailProvisionalNavigation:withError:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WKWebView",
-                "printedName": "WebKit.WKWebView",
-                "usr": "c:objc(cs)WKWebView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "WebKit.WKNavigation?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "WKNavigation",
-                    "printedName": "WebKit.WKNavigation",
-                    "usr": "c:objc(cs)WKNavigation"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Error",
-                "printedName": "any Swift.Error",
-                "usr": "s:s5ErrorP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@TruvSDK@objc(cs)TruvBridgeView(im)webView:didFailProvisionalNavigation:withError:",
-            "mangledName": "$s7TruvSDK0A10BridgeViewC03webD0_28didFailProvisionalNavigation9withErrorySo05WKWebD0C_So12WKNavigationCSgs0K0_ptF",
-            "moduleName": "TruvSDK",
-            "objc_name": "webView:didFailProvisionalNavigation:withError:",
-            "declAttributes": [
-              "Final",
-              "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -5936,6 +6287,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -5948,6 +6300,7 @@
         "mangledName": "$s7TruvSDK0A10BridgeViewC",
         "moduleName": "TruvSDK",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "Final",
           "AccessControl",
@@ -5961,6 +6314,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -6307,6 +6674,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -6632,6 +7013,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Encodable",
             "printedName": "Encodable",
             "usr": "s:SE",
@@ -6921,6 +7316,22 @@
         "moduleName": "TruvSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -6936,6 +7347,244 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "TruvSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BrowserStorageValues",
+        "printedName": "BrowserStorageValues",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7TruvSDK20BrowserStorageValuesV4nameSSvp",
+            "mangledName": "$s7TruvSDK20BrowserStorageValuesV4nameSSvp",
+            "moduleName": "TruvSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7TruvSDK20BrowserStorageValuesV4nameSSvg",
+                "mangledName": "$s7TruvSDK20BrowserStorageValuesV4nameSSvg",
+                "moduleName": "TruvSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "value",
+            "printedName": "value",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7TruvSDK20BrowserStorageValuesV5valueSSvp",
+            "mangledName": "$s7TruvSDK20BrowserStorageValuesV5valueSSvp",
+            "moduleName": "TruvSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7TruvSDK20BrowserStorageValuesV5valueSSvg",
+                "mangledName": "$s7TruvSDK20BrowserStorageValuesV5valueSSvg",
+                "moduleName": "TruvSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "source_domain",
+            "printedName": "source_domain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7TruvSDK20BrowserStorageValuesV13source_domainSSvp",
+            "mangledName": "$s7TruvSDK20BrowserStorageValuesV13source_domainSSvp",
+            "moduleName": "TruvSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7TruvSDK20BrowserStorageValuesV13source_domainSSvg",
+                "mangledName": "$s7TruvSDK20BrowserStorageValuesV13source_domainSSvg",
+                "moduleName": "TruvSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "source",
+            "printedName": "source",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7TruvSDK20BrowserStorageValuesV6sourceSSvp",
+            "mangledName": "$s7TruvSDK20BrowserStorageValuesV6sourceSSvp",
+            "moduleName": "TruvSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7TruvSDK20BrowserStorageValuesV6sourceSSvg",
+                "mangledName": "$s7TruvSDK20BrowserStorageValuesV6sourceSSvg",
+                "moduleName": "TruvSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7TruvSDK20BrowserStorageValuesV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s7TruvSDK20BrowserStorageValuesV6encode2toys7Encoder_p_tKF",
+            "moduleName": "TruvSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7TruvSDK20BrowserStorageValuesV",
+        "mangledName": "$s7TruvSDK20BrowserStorageValuesV",
+        "moduleName": "TruvSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -6971,6 +7620,7 @@
             "mangledName": "$sSo11UIImageViewC7TruvSDKE9loadImage4fromy10Foundation3URLV_tF",
             "moduleName": "TruvSDK",
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -6998,6 +7648,7 @@
             "mangledName": "$sSo11UIImageViewC7TruvSDKE9loadImage4fromySS_tF",
             "moduleName": "TruvSDK",
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -7011,6 +7662,7 @@
         "intro_iOS": "2.0",
         "objc_name": "UIImageView",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "ObjC",
           "NonSendable",
@@ -7026,6 +7678,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -7103,707 +7769,658 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 284,
+      "offset": 300,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 335,
+      "offset": 351,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 539,
+      "offset": 555,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 710,
+      "offset": 726,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 772,
+      "offset": 788,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1012,
-      "length": 8,
-      "value": "\"bridge\""
-    },
-    {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1066,
+      "offset": 1054,
       "length": 10,
       "value": "\"callback\""
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1323,
+      "offset": 1240,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1433,
+      "offset": 1350,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 36,
-      "length": 22,
-      "value": "\"TruvSDK.LoginWebViewController\""
-    },
-    {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvSuccessPayload.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvSuccessPayload.swift",
       "kind": "StringLiteral",
       "offset": 329,
       "length": 9,
       "value": "\"task_id\""
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvSuccessPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 329,
-      "length": 9,
-      "value": "\"task_id\""
-    },
-    {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvSuccessPayload.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvSuccessPayload.swift",
       "kind": "StringLiteral",
       "offset": 466,
       "length": 14,
       "value": "\"public_token\""
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvSuccessPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 466,
-      "length": 14,
-      "value": "\"public_token\""
-    },
-    {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 284,
+      "offset": 300,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 335,
+      "offset": 351,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 539,
+      "offset": 555,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 724,
+      "offset": 740,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1057,
+      "offset": 1073,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1125,
+      "offset": 1141,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 36,
-      "length": 22,
-      "value": "\"TruvSDK.OAuthWebViewController\""
-    },
-    {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/Constants.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 143,
       "length": 21,
       "value": "\"\/oauth-success.html\""
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeController.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeController.swift",
       "kind": "BooleanLiteral",
       "offset": 318,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeController.swift",
-      "kind": "StringLiteral",
-      "offset": 33,
-      "length": 20,
-      "value": "\"TruvSDK.TruvBridgeController\""
-    },
-    {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
       "kind": "StringLiteral",
       "offset": 195,
       "length": 12,
       "value": "\"LINK_ERROR\""
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
-      "kind": "StringLiteral",
-      "offset": 195,
-      "length": 12,
-      "value": "\"LINK_ERROR\""
-    },
-    {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
       "kind": "StringLiteral",
       "offset": 282,
       "length": 12,
       "value": "\"LINK_ERROR\""
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
       "kind": "StringLiteral",
       "offset": 322,
       "length": 13,
       "value": "\"UNAVAILABLE\""
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
       "kind": "StringLiteral",
       "offset": 360,
       "length": 11,
       "value": "\"MFA_ERROR\""
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
       "kind": "StringLiteral",
       "offset": 398,
       "length": 13,
       "value": "\"LOGIN_ERROR\""
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
       "kind": "StringLiteral",
       "offset": 433,
       "length": 7,
       "value": "\"ERROR\""
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
-      "kind": "StringLiteral",
-      "offset": 282,
-      "length": 12,
-      "value": "\"LINK_ERROR\""
-    },
-    {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
-      "kind": "StringLiteral",
-      "offset": 322,
-      "length": 13,
-      "value": "\"UNAVAILABLE\""
-    },
-    {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
-      "kind": "StringLiteral",
-      "offset": 360,
-      "length": 11,
-      "value": "\"MFA_ERROR\""
-    },
-    {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
-      "kind": "StringLiteral",
-      "offset": 398,
-      "length": 13,
-      "value": "\"LOGIN_ERROR\""
-    },
-    {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
-      "kind": "StringLiteral",
-      "offset": 433,
-      "length": 7,
-      "value": "\"ERROR\""
-    },
-    {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
       "kind": "StringLiteral",
       "offset": 517,
       "length": 12,
       "value": "\"error_type\""
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
       "kind": "StringLiteral",
       "offset": 550,
       "length": 12,
       "value": "\"error_code\""
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
       "kind": "StringLiteral",
       "offset": 586,
       "length": 15,
       "value": "\"error_message\""
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
-      "kind": "StringLiteral",
-      "offset": 517,
-      "length": 12,
-      "value": "\"error_type\""
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 98,
+      "length": 2,
+      "value": "21"
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
-      "kind": "StringLiteral",
-      "offset": 550,
-      "length": 12,
-      "value": "\"error_code\""
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 101,
+      "length": 3,
+      "value": "256"
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
-      "kind": "StringLiteral",
-      "offset": 586,
-      "length": 15,
-      "value": "\"error_message\""
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 113,
+      "length": 2,
+      "value": "27"
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/TruvScriptHiddenWebViewMessageHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 170,
-      "length": 37,
-      "value": "\"TruvSDK.TruvScriptHiddenWebViewMessageHandler\""
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 116,
+      "length": 3,
+      "value": "256"
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 127,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 130,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 142,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 217,
+      "length": 3,
+      "value": "135"
+    },
+    {
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 221,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 233,
+      "length": 3,
+      "value": "138"
+    },
+    {
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 237,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 248,
+      "length": 3,
+      "value": "146"
+    },
+    {
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 252,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 264,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 331,
+      "length": 2,
+      "value": "28"
+    },
+    {
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 334,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 346,
+      "length": 3,
+      "value": "143"
+    },
+    {
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 350,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 361,
+      "length": 2,
+      "value": "96"
+    },
+    {
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 364,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 376,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 442,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 445,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 457,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 461,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 472,
+      "length": 3,
+      "value": "227"
+    },
+    {
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 476,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 488,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 565,
       "length": 14,
       "value": "\"bridge_token\""
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 611,
       "length": 14,
       "value": "\"product_type\""
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 654,
       "length": 11,
       "value": "\"view_name\""
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 723,
       "length": 14,
       "value": "\"public_token\""
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 764,
       "length": 9,
       "value": "\"task_id\""
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 804,
       "length": 13,
       "value": "\"provider_id\""
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 565,
-      "length": 14,
-      "value": "\"bridge_token\""
-    },
-    {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 611,
-      "length": 14,
-      "value": "\"product_type\""
-    },
-    {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 654,
-      "length": 11,
-      "value": "\"view_name\""
-    },
-    {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 723,
-      "length": 14,
-      "value": "\"public_token\""
-    },
-    {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 764,
-      "length": 9,
-      "value": "\"task_id\""
-    },
-    {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 804,
-      "length": 13,
-      "value": "\"provider_id\""
-    },
-    {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 953,
       "length": 12,
       "value": "\"event_type\""
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 953,
-      "length": 12,
-      "value": "\"event_type\""
-    },
-    {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1038,
       "length": 6,
       "value": "\"LOAD\""
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1065,
       "length": 6,
       "value": "\"OPEN\""
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1098,
       "length": 13,
       "value": "\"SCREEN_VIEW\""
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1144,
       "length": 19,
       "value": "\"EMPLOYER_SELECTED\""
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1191,
       "length": 14,
       "value": "\"LINK_CREATED\""
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1235,
       "length": 16,
       "value": "\"LOGIN_COMPLETE\""
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1275,
       "length": 9,
       "value": "\"SUCCESS\""
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1306,
       "length": 7,
       "value": "\"ERROR\""
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1348,
       "length": 21,
       "value": "\"UNSUPPORTED_BROWSER\""
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1391,
       "length": 7,
       "value": "\"CLOSE\""
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 1038,
-      "length": 6,
-      "value": "\"LOAD\""
-    },
-    {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 1065,
-      "length": 6,
-      "value": "\"OPEN\""
-    },
-    {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 1098,
-      "length": 13,
-      "value": "\"SCREEN_VIEW\""
-    },
-    {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 1144,
-      "length": 19,
-      "value": "\"EMPLOYER_SELECTED\""
-    },
-    {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 1191,
-      "length": 14,
-      "value": "\"LINK_CREATED\""
-    },
-    {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 1235,
-      "length": 16,
-      "value": "\"LOGIN_COMPLETE\""
-    },
-    {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 1275,
-      "length": 9,
-      "value": "\"SUCCESS\""
-    },
-    {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 1306,
-      "length": 7,
-      "value": "\"ERROR\""
-    },
-    {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 1348,
-      "length": 21,
-      "value": "\"UNSUPPORTED_BROWSER\""
-    },
-    {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 1391,
-      "length": 7,
-      "value": "\"CLOSE\""
-    },
-    {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeView.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeView.swift",
       "kind": "BooleanLiteral",
-      "offset": 370,
+      "offset": 386,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeView.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeView.swift",
       "kind": "BooleanLiteral",
-      "offset": 642,
+      "offset": 658,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeView.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeView.swift",
       "kind": "BooleanLiteral",
-      "offset": 675,
+      "offset": 691,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeView.swift",
-      "kind": "StringLiteral",
-      "offset": 84,
-      "length": 14,
-      "value": "\"TruvSDK.TruvBridgeView\""
-    },
-    {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/TruvScriptMessageHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 27,
-      "length": 24,
-      "value": "\"TruvSDK.TruvScriptMessageHandler\""
-    },
-    {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvSDKConfig.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvSDKConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 195,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvSDKConfig.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvSDKConfig.swift",
       "kind": "StringLiteral",
       "offset": 426,
       "length": 22,
       "value": "\"https:\/\/cdn.truv.com\""
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
       "kind": "BooleanLiteral",
       "offset": 324,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 470,
       "length": 2,
       "value": "26"
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 604,
       "length": 2,
       "value": "01"
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 751,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 886,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
       "kind": "BooleanLiteral",
       "offset": 1231,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
       "kind": "BooleanLiteral",
       "offset": 1445,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 1548,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 1607,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
       "kind": "BooleanLiteral",
       "offset": 185,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
       "kind": "StringLiteral",
       "offset": 233,
       "length": 17,
       "value": "\"arrow.clockwise\""
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
       "kind": "Array",
       "offset": 258,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
       "kind": "StringLiteral",
       "offset": 561,
       "length": 6,
       "value": "\"lock\""
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
       "kind": "IntegerLiteral",
       "offset": 761,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
       "kind": "BooleanLiteral",
       "offset": 1030,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
       "kind": "IntegerLiteral",
       "offset": 1064,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/berkut\/Truv\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
       "kind": "BooleanLiteral",
       "offset": 1294,
       "length": 5,
