@@ -7883,7 +7883,7 @@
     {
       "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 143,
+      "offset": 193,
       "length": 21,
       "value": "\"\/oauth-success.html\""
     },
