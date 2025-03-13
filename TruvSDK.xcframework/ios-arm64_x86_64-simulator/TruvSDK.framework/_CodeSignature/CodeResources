@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		my0Du0ANp3+d5S+dSQe//EHGdwg=
+		Vqmx50WTnv108FUqWp5EXi/AQbg=
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		vQuVDjdPzAjHT0GfthVItnrh7jU=
+		1Cx7HLEDKr3Rk+kg9fjWjP8O9Lc=
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jVQgGe8ucMf9LUFZSwynhhVXfbY=
+		nWoRmx/lNrfIWLVchvHaj77xPSk=
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		vQuVDjdPzAjHT0GfthVItnrh7jU=
+		1Cx7HLEDKr3Rk+kg9fjWjP8O9Lc=
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		HySzB2tLGeLkNSF+VRX9GZjZ5KU=
+		/1wCU53u80RO0AltSa32iIY8AGw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wFEnOFAb4Y1HFnkoK0NKgEBg06ovuMEEJLzhiXD4tI8=
+			alWyMqnENiVrlTn/UblIx9oFxYSU4Yajw7HyyU0mz4o=
 			</data>
 		</dict>
 		<key>Modules/TruvSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			R94gy7DrFO49aeM1uhtw7eW/AwPYNqT/S5d8imvFH3Y=
+			B1j0cCeLpaQBZFIId0aqCI2iaNzWRAfIYNPwMRtDmss=
 			</data>
 		</dict>
 		<key>Modules/TruvSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wFEnOFAb4Y1HFnkoK0NKgEBg06ovuMEEJLzhiXD4tI8=
+			alWyMqnENiVrlTn/UblIx9oFxYSU4Yajw7HyyU0mz4o=
 			</data>
 		</dict>
 		<key>Modules/TruvSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wu+ushN8ZviE8udXf/rQQTxAjQ+GQwuBUdZQ3v4EwuM=
+			Gmzz01JgZ7rttQNoRO2jrRH7J67/EPKtOv4A5lTVKPs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
