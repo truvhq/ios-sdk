@@ -144,6 +144,11 @@ public struct TruvEventPayload : Swift.Codable {
     public let taskId: Swift.String?
     public let providerId: Swift.String?
     public let error: TruvSDK.TruvError?
+    public let url: Swift.String?
+    public let action: TruvSDK.TruvEventPayload.ManualDdsActionType?
+    public let depositType: Swift.String?
+    public let dataSource: Swift.String?
+    public let docType: Swift.String?
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
@@ -158,6 +163,21 @@ public struct TruvEventPayload : Swift.Codable {
     case error
     case unsupportedBrowser
     case close
+    case manualDds
+    case documentsUploaded
+    case docUploadOpened
+    case oauthOpened
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public enum ManualDdsActionType : Swift.String, Swift.Codable {
+    case externalFlow
+    case download
+    case email
+    case share
     public init?(rawValue: Swift.String)
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
@@ -231,6 +251,9 @@ extension TruvSDK.TruvError.ErrorCode : Swift.RawRepresentable {}
 extension TruvSDK.TruvEventPayload.EventType : Swift.Equatable {}
 extension TruvSDK.TruvEventPayload.EventType : Swift.Hashable {}
 extension TruvSDK.TruvEventPayload.EventType : Swift.RawRepresentable {}
+extension TruvSDK.TruvEventPayload.ManualDdsActionType : Swift.Equatable {}
+extension TruvSDK.TruvEventPayload.ManualDdsActionType : Swift.Hashable {}
+extension TruvSDK.TruvEventPayload.ManualDdsActionType : Swift.RawRepresentable {}
 extension TruvSDK.TruvEventType : Swift.Equatable {}
 extension TruvSDK.TruvEventType : Swift.Hashable {}
 extension TruvSDK.TruvEventType : Swift.RawRepresentable {}

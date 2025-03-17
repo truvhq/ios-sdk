@@ -4742,6 +4742,306 @@
                 ]
               },
               {
+                "kind": "Var",
+                "name": "url",
+                "printedName": "url",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7TruvSDK0A12EventPayloadV0D0V3urlSSSgvp",
+                "mangledName": "$s7TruvSDK0A12EventPayloadV0D0V3urlSSSgvp",
+                "moduleName": "TruvSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7TruvSDK0A12EventPayloadV0D0V3urlSSSgvg",
+                    "mangledName": "$s7TruvSDK0A12EventPayloadV0D0V3urlSSSgvg",
+                    "moduleName": "TruvSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "action",
+                "printedName": "action",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TruvSDK.TruvEventPayload.ManualDdsActionType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ManualDdsActionType",
+                        "printedName": "TruvSDK.TruvEventPayload.ManualDdsActionType",
+                        "usr": "s:7TruvSDK0A12EventPayloadV19ManualDdsActionTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7TruvSDK0A12EventPayloadV0D0V6actionAC19ManualDdsActionTypeOSgvp",
+                "mangledName": "$s7TruvSDK0A12EventPayloadV0D0V6actionAC19ManualDdsActionTypeOSgvp",
+                "moduleName": "TruvSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "TruvSDK.TruvEventPayload.ManualDdsActionType?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ManualDdsActionType",
+                            "printedName": "TruvSDK.TruvEventPayload.ManualDdsActionType",
+                            "usr": "s:7TruvSDK0A12EventPayloadV19ManualDdsActionTypeO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7TruvSDK0A12EventPayloadV0D0V6actionAC19ManualDdsActionTypeOSgvg",
+                    "mangledName": "$s7TruvSDK0A12EventPayloadV0D0V6actionAC19ManualDdsActionTypeOSgvg",
+                    "moduleName": "TruvSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "depositType",
+                "printedName": "depositType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7TruvSDK0A12EventPayloadV0D0V11depositTypeSSSgvp",
+                "mangledName": "$s7TruvSDK0A12EventPayloadV0D0V11depositTypeSSSgvp",
+                "moduleName": "TruvSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7TruvSDK0A12EventPayloadV0D0V11depositTypeSSSgvg",
+                    "mangledName": "$s7TruvSDK0A12EventPayloadV0D0V11depositTypeSSSgvg",
+                    "moduleName": "TruvSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "dataSource",
+                "printedName": "dataSource",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7TruvSDK0A12EventPayloadV0D0V10dataSourceSSSgvp",
+                "mangledName": "$s7TruvSDK0A12EventPayloadV0D0V10dataSourceSSSgvp",
+                "moduleName": "TruvSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7TruvSDK0A12EventPayloadV0D0V10dataSourceSSSgvg",
+                    "mangledName": "$s7TruvSDK0A12EventPayloadV0D0V10dataSourceSSSgvg",
+                    "moduleName": "TruvSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "docType",
+                "printedName": "docType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7TruvSDK0A12EventPayloadV0D0V7docTypeSSSgvp",
+                "mangledName": "$s7TruvSDK0A12EventPayloadV0D0V7docTypeSSSgvp",
+                "moduleName": "TruvSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7TruvSDK0A12EventPayloadV0D0V7docTypeSSSgvg",
+                    "mangledName": "$s7TruvSDK0A12EventPayloadV0D0V7docTypeSSSgvg",
+                    "moduleName": "TruvSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init(from:)",
@@ -5207,6 +5507,154 @@
                 "moduleName": "TruvSDK"
               },
               {
+                "kind": "Var",
+                "name": "manualDds",
+                "printedName": "manualDds",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TruvSDK.TruvEventPayload.EventType.Type) -> TruvSDK.TruvEventPayload.EventType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventType",
+                        "printedName": "TruvSDK.TruvEventPayload.EventType",
+                        "usr": "s:7TruvSDK0A12EventPayloadV0C4TypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TruvSDK.TruvEventPayload.EventType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EventType",
+                            "printedName": "TruvSDK.TruvEventPayload.EventType",
+                            "usr": "s:7TruvSDK0A12EventPayloadV0C4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7TruvSDK0A12EventPayloadV0C4TypeO9manualDdsyA2EmF",
+                "mangledName": "$s7TruvSDK0A12EventPayloadV0C4TypeO9manualDdsyA2EmF",
+                "moduleName": "TruvSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "documentsUploaded",
+                "printedName": "documentsUploaded",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TruvSDK.TruvEventPayload.EventType.Type) -> TruvSDK.TruvEventPayload.EventType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventType",
+                        "printedName": "TruvSDK.TruvEventPayload.EventType",
+                        "usr": "s:7TruvSDK0A12EventPayloadV0C4TypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TruvSDK.TruvEventPayload.EventType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EventType",
+                            "printedName": "TruvSDK.TruvEventPayload.EventType",
+                            "usr": "s:7TruvSDK0A12EventPayloadV0C4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7TruvSDK0A12EventPayloadV0C4TypeO17documentsUploadedyA2EmF",
+                "mangledName": "$s7TruvSDK0A12EventPayloadV0C4TypeO17documentsUploadedyA2EmF",
+                "moduleName": "TruvSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "docUploadOpened",
+                "printedName": "docUploadOpened",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TruvSDK.TruvEventPayload.EventType.Type) -> TruvSDK.TruvEventPayload.EventType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventType",
+                        "printedName": "TruvSDK.TruvEventPayload.EventType",
+                        "usr": "s:7TruvSDK0A12EventPayloadV0C4TypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TruvSDK.TruvEventPayload.EventType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EventType",
+                            "printedName": "TruvSDK.TruvEventPayload.EventType",
+                            "usr": "s:7TruvSDK0A12EventPayloadV0C4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7TruvSDK0A12EventPayloadV0C4TypeO15docUploadOpenedyA2EmF",
+                "mangledName": "$s7TruvSDK0A12EventPayloadV0C4TypeO15docUploadOpenedyA2EmF",
+                "moduleName": "TruvSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "oauthOpened",
+                "printedName": "oauthOpened",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TruvSDK.TruvEventPayload.EventType.Type) -> TruvSDK.TruvEventPayload.EventType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventType",
+                        "printedName": "TruvSDK.TruvEventPayload.EventType",
+                        "usr": "s:7TruvSDK0A12EventPayloadV0C4TypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TruvSDK.TruvEventPayload.EventType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EventType",
+                            "printedName": "TruvSDK.TruvEventPayload.EventType",
+                            "usr": "s:7TruvSDK0A12EventPayloadV0C4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7TruvSDK0A12EventPayloadV0C4TypeO11oauthOpenedyA2EmF",
+                "mangledName": "$s7TruvSDK0A12EventPayloadV0C4TypeO11oauthOpenedyA2EmF",
+                "moduleName": "TruvSDK"
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init(rawValue:)",
@@ -5282,6 +5730,307 @@
             "declKind": "Enum",
             "usr": "s:7TruvSDK0A12EventPayloadV0C4TypeO",
             "mangledName": "$s7TruvSDK0A12EventPayloadV0C4TypeO",
+            "moduleName": "TruvSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "ManualDdsActionType",
+            "printedName": "ManualDdsActionType",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "externalFlow",
+                "printedName": "externalFlow",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TruvSDK.TruvEventPayload.ManualDdsActionType.Type) -> TruvSDK.TruvEventPayload.ManualDdsActionType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ManualDdsActionType",
+                        "printedName": "TruvSDK.TruvEventPayload.ManualDdsActionType",
+                        "usr": "s:7TruvSDK0A12EventPayloadV19ManualDdsActionTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TruvSDK.TruvEventPayload.ManualDdsActionType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ManualDdsActionType",
+                            "printedName": "TruvSDK.TruvEventPayload.ManualDdsActionType",
+                            "usr": "s:7TruvSDK0A12EventPayloadV19ManualDdsActionTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7TruvSDK0A12EventPayloadV19ManualDdsActionTypeO12externalFlowyA2EmF",
+                "mangledName": "$s7TruvSDK0A12EventPayloadV19ManualDdsActionTypeO12externalFlowyA2EmF",
+                "moduleName": "TruvSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "download",
+                "printedName": "download",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TruvSDK.TruvEventPayload.ManualDdsActionType.Type) -> TruvSDK.TruvEventPayload.ManualDdsActionType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ManualDdsActionType",
+                        "printedName": "TruvSDK.TruvEventPayload.ManualDdsActionType",
+                        "usr": "s:7TruvSDK0A12EventPayloadV19ManualDdsActionTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TruvSDK.TruvEventPayload.ManualDdsActionType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ManualDdsActionType",
+                            "printedName": "TruvSDK.TruvEventPayload.ManualDdsActionType",
+                            "usr": "s:7TruvSDK0A12EventPayloadV19ManualDdsActionTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7TruvSDK0A12EventPayloadV19ManualDdsActionTypeO8downloadyA2EmF",
+                "mangledName": "$s7TruvSDK0A12EventPayloadV19ManualDdsActionTypeO8downloadyA2EmF",
+                "moduleName": "TruvSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "email",
+                "printedName": "email",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TruvSDK.TruvEventPayload.ManualDdsActionType.Type) -> TruvSDK.TruvEventPayload.ManualDdsActionType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ManualDdsActionType",
+                        "printedName": "TruvSDK.TruvEventPayload.ManualDdsActionType",
+                        "usr": "s:7TruvSDK0A12EventPayloadV19ManualDdsActionTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TruvSDK.TruvEventPayload.ManualDdsActionType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ManualDdsActionType",
+                            "printedName": "TruvSDK.TruvEventPayload.ManualDdsActionType",
+                            "usr": "s:7TruvSDK0A12EventPayloadV19ManualDdsActionTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7TruvSDK0A12EventPayloadV19ManualDdsActionTypeO5emailyA2EmF",
+                "mangledName": "$s7TruvSDK0A12EventPayloadV19ManualDdsActionTypeO5emailyA2EmF",
+                "moduleName": "TruvSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "share",
+                "printedName": "share",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TruvSDK.TruvEventPayload.ManualDdsActionType.Type) -> TruvSDK.TruvEventPayload.ManualDdsActionType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ManualDdsActionType",
+                        "printedName": "TruvSDK.TruvEventPayload.ManualDdsActionType",
+                        "usr": "s:7TruvSDK0A12EventPayloadV19ManualDdsActionTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TruvSDK.TruvEventPayload.ManualDdsActionType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ManualDdsActionType",
+                            "printedName": "TruvSDK.TruvEventPayload.ManualDdsActionType",
+                            "usr": "s:7TruvSDK0A12EventPayloadV19ManualDdsActionTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7TruvSDK0A12EventPayloadV19ManualDdsActionTypeO5shareyA2EmF",
+                "mangledName": "$s7TruvSDK0A12EventPayloadV19ManualDdsActionTypeO5shareyA2EmF",
+                "moduleName": "TruvSDK"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TruvSDK.TruvEventPayload.ManualDdsActionType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ManualDdsActionType",
+                        "printedName": "TruvSDK.TruvEventPayload.ManualDdsActionType",
+                        "usr": "s:7TruvSDK0A12EventPayloadV19ManualDdsActionTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:7TruvSDK0A12EventPayloadV19ManualDdsActionTypeO8rawValueAESgSS_tcfc",
+                "mangledName": "$s7TruvSDK0A12EventPayloadV19ManualDdsActionTypeO8rawValueAESgSS_tcfc",
+                "moduleName": "TruvSDK",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7TruvSDK0A12EventPayloadV19ManualDdsActionTypeO8rawValueSSvp",
+                "mangledName": "$s7TruvSDK0A12EventPayloadV19ManualDdsActionTypeO8rawValueSSvp",
+                "moduleName": "TruvSDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7TruvSDK0A12EventPayloadV19ManualDdsActionTypeO8rawValueSSvg",
+                    "mangledName": "$s7TruvSDK0A12EventPayloadV19ManualDdsActionTypeO8rawValueSSvg",
+                    "moduleName": "TruvSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:7TruvSDK0A12EventPayloadV19ManualDdsActionTypeO",
+            "mangledName": "$s7TruvSDK0A12EventPayloadV19ManualDdsActionTypeO",
             "moduleName": "TruvSDK",
             "declAttributes": [
               "AccessControl"
@@ -8156,121 +8905,191 @@
     {
       "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
-      "offset": 565,
+      "offset": 760,
       "length": 14,
       "value": "\"bridge_token\""
     },
     {
       "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
-      "offset": 611,
+      "offset": 806,
       "length": 14,
       "value": "\"product_type\""
     },
     {
       "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
-      "offset": 654,
+      "offset": 849,
       "length": 11,
       "value": "\"view_name\""
     },
     {
       "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
-      "offset": 723,
+      "offset": 918,
       "length": 14,
       "value": "\"public_token\""
     },
     {
       "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
-      "offset": 764,
+      "offset": 959,
       "length": 9,
       "value": "\"task_id\""
     },
     {
       "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
-      "offset": 804,
+      "offset": 999,
       "length": 13,
       "value": "\"provider_id\""
     },
     {
       "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
-      "offset": 953,
+      "offset": 1140,
+      "length": 13,
+      "value": "\"data_source\""
+    },
+    {
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 1181,
+      "length": 10,
+      "value": "\"doc_type\""
+    },
+    {
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 1304,
       "length": 12,
       "value": "\"event_type\""
     },
     {
       "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
-      "offset": 1038,
+      "offset": 1389,
       "length": 6,
       "value": "\"LOAD\""
     },
     {
       "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
-      "offset": 1065,
+      "offset": 1416,
       "length": 6,
       "value": "\"OPEN\""
     },
     {
       "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
-      "offset": 1098,
+      "offset": 1449,
       "length": 13,
       "value": "\"SCREEN_VIEW\""
     },
     {
       "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
-      "offset": 1144,
+      "offset": 1495,
       "length": 19,
       "value": "\"EMPLOYER_SELECTED\""
     },
     {
       "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
-      "offset": 1191,
+      "offset": 1542,
       "length": 14,
       "value": "\"LINK_CREATED\""
     },
     {
       "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
-      "offset": 1235,
+      "offset": 1586,
       "length": 16,
       "value": "\"LOGIN_COMPLETE\""
     },
     {
       "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
-      "offset": 1275,
+      "offset": 1626,
       "length": 9,
       "value": "\"SUCCESS\""
     },
     {
       "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
-      "offset": 1306,
+      "offset": 1657,
       "length": 7,
       "value": "\"ERROR\""
     },
     {
       "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
-      "offset": 1348,
+      "offset": 1699,
       "length": 21,
       "value": "\"UNSUPPORTED_BROWSER\""
     },
     {
       "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
-      "offset": 1391,
+      "offset": 1742,
       "length": 7,
       "value": "\"CLOSE\""
+    },
+    {
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 1775,
+      "length": 12,
+      "value": "\"MANUAL_DDS\""
+    },
+    {
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 1821,
+      "length": 20,
+      "value": "\"DOCUMENTS_UPLOADED\""
+    },
+    {
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 1873,
+      "length": 19,
+      "value": "\"DOC_UPLOAD_OPENED\""
+    },
+    {
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 1920,
+      "length": 14,
+      "value": "\"OAUTH_OPENED\""
+    },
+    {
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 2025,
+      "length": 15,
+      "value": "\"EXTERNAL_FLOW\""
+    },
+    {
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 2065,
+      "length": 10,
+      "value": "\"DOWNLOAD\""
+    },
+    {
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 2097,
+      "length": 7,
+      "value": "\"EMAIL\""
+    },
+    {
+      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 2126,
+      "length": 7,
+      "value": "\"SHARE\""
     },
     {
       "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeView.swift",
