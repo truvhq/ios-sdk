@@ -59,6 +59,71 @@
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onRawEvent",
+            "printedName": "onRawEvent(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7TruvSDK0A8DelegateP10onRawEventyySS_SStF",
+            "mangledName": "$s7TruvSDK0A8DelegateP10onRawEventyySS_SStF",
+            "moduleName": "TruvSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : TruvSDK.TruvDelegate>",
+            "sugared_genericSig": "<Self where Self : TruvSDK.TruvDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onRawEvent",
+            "printedName": "onRawEvent(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7TruvSDK0A8DelegatePAAE10onRawEventyySS_SStF",
+            "mangledName": "$s7TruvSDK0A8DelegatePAAE10onRawEventyySS_SStF",
+            "moduleName": "TruvSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : TruvSDK.TruvDelegate>",
+            "sugared_genericSig": "<Self where Self : TruvSDK.TruvDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -8518,728 +8583,728 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 300,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 351,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 555,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 726,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 788,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "StringLiteral",
       "offset": 1054,
       "length": 10,
       "value": "\"callback\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1240,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1350,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvSuccessPayload.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvSuccessPayload.swift",
       "kind": "StringLiteral",
       "offset": 329,
       "length": 9,
       "value": "\"task_id\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvSuccessPayload.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvSuccessPayload.swift",
       "kind": "StringLiteral",
       "offset": 466,
       "length": 14,
       "value": "\"public_token\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 300,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 351,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 555,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 740,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1073,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1141,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/Constants.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 193,
       "length": 21,
       "value": "\"\/oauth-success.html\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeController.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeController.swift",
       "kind": "BooleanLiteral",
       "offset": 318,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
       "kind": "StringLiteral",
       "offset": 195,
       "length": 12,
       "value": "\"LINK_ERROR\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
       "kind": "StringLiteral",
       "offset": 282,
       "length": 12,
       "value": "\"LINK_ERROR\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
       "kind": "StringLiteral",
       "offset": 322,
       "length": 13,
       "value": "\"UNAVAILABLE\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
       "kind": "StringLiteral",
       "offset": 360,
       "length": 11,
       "value": "\"MFA_ERROR\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
       "kind": "StringLiteral",
       "offset": 398,
       "length": 13,
       "value": "\"LOGIN_ERROR\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
       "kind": "StringLiteral",
       "offset": 433,
       "length": 7,
       "value": "\"ERROR\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
       "kind": "StringLiteral",
       "offset": 517,
       "length": 12,
       "value": "\"error_type\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
       "kind": "StringLiteral",
       "offset": 550,
       "length": 12,
       "value": "\"error_code\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
       "kind": "StringLiteral",
       "offset": 586,
       "length": 15,
       "value": "\"error_message\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 98,
       "length": 2,
       "value": "21"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 101,
       "length": 3,
       "value": "256"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 113,
       "length": 2,
       "value": "27"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 116,
       "length": 3,
       "value": "256"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 127,
       "length": 2,
       "value": "40"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 130,
       "length": 3,
       "value": "256"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 142,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 217,
       "length": 3,
       "value": "135"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 221,
       "length": 3,
       "value": "256"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 233,
       "length": 3,
       "value": "138"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 237,
       "length": 3,
       "value": "256"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 248,
       "length": 3,
       "value": "146"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 252,
       "length": 3,
       "value": "256"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 264,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 331,
       "length": 2,
       "value": "28"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 334,
       "length": 3,
       "value": "256"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 346,
       "length": 3,
       "value": "143"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 350,
       "length": 3,
       "value": "256"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 361,
       "length": 2,
       "value": "96"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 364,
       "length": 3,
       "value": "256"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 376,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 442,
       "length": 2,
       "value": "44"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 445,
       "length": 3,
       "value": "256"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 457,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 461,
       "length": 3,
       "value": "256"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 472,
       "length": 3,
       "value": "227"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 476,
       "length": 3,
       "value": "256"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 488,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 760,
       "length": 14,
       "value": "\"bridge_token\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 806,
       "length": 14,
       "value": "\"product_type\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 849,
       "length": 11,
       "value": "\"view_name\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 918,
       "length": 14,
       "value": "\"public_token\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 959,
       "length": 9,
       "value": "\"task_id\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 999,
       "length": 13,
       "value": "\"provider_id\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1140,
       "length": 13,
       "value": "\"data_source\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1181,
       "length": 10,
       "value": "\"doc_type\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1304,
       "length": 12,
       "value": "\"event_type\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1389,
       "length": 6,
       "value": "\"LOAD\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1416,
       "length": 6,
       "value": "\"OPEN\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1449,
       "length": 13,
       "value": "\"SCREEN_VIEW\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1495,
       "length": 19,
       "value": "\"EMPLOYER_SELECTED\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1542,
       "length": 14,
       "value": "\"LINK_CREATED\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1586,
       "length": 16,
       "value": "\"LOGIN_COMPLETE\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1626,
       "length": 9,
       "value": "\"SUCCESS\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1657,
       "length": 7,
       "value": "\"ERROR\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1699,
       "length": 21,
       "value": "\"UNSUPPORTED_BROWSER\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1742,
       "length": 7,
       "value": "\"CLOSE\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1775,
       "length": 12,
       "value": "\"MANUAL_DDS\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1821,
       "length": 20,
       "value": "\"DOCUMENTS_UPLOADED\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1873,
       "length": 19,
       "value": "\"DOC_UPLOAD_OPENED\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1920,
       "length": 14,
       "value": "\"OAUTH_OPENED\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 2025,
       "length": 15,
       "value": "\"EXTERNAL_FLOW\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 2065,
       "length": 10,
       "value": "\"DOWNLOAD\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 2097,
       "length": 7,
       "value": "\"EMAIL\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 2126,
       "length": 7,
       "value": "\"SHARE\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeView.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeView.swift",
       "kind": "BooleanLiteral",
       "offset": 386,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeView.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeView.swift",
       "kind": "BooleanLiteral",
       "offset": 658,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeView.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeView.swift",
       "kind": "BooleanLiteral",
       "offset": 691,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvSDKConfig.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvSDKConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 195,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvSDKConfig.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvSDKConfig.swift",
       "kind": "StringLiteral",
       "offset": 426,
       "length": 22,
       "value": "\"https:\/\/cdn.truv.com\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
       "kind": "BooleanLiteral",
       "offset": 324,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 470,
       "length": 2,
       "value": "26"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 604,
       "length": 2,
       "value": "01"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 751,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 886,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
       "kind": "BooleanLiteral",
       "offset": 1231,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
       "kind": "BooleanLiteral",
       "offset": 1445,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 1548,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 1607,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
       "kind": "BooleanLiteral",
       "offset": 185,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
       "kind": "StringLiteral",
       "offset": 233,
       "length": 17,
       "value": "\"arrow.clockwise\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
       "kind": "Array",
       "offset": 258,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
       "kind": "StringLiteral",
       "offset": 561,
       "length": 6,
       "value": "\"lock\""
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
       "kind": "IntegerLiteral",
       "offset": 761,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
       "kind": "BooleanLiteral",
       "offset": 1030,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
       "kind": "IntegerLiteral",
       "offset": 1064,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/vesai\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
       "kind": "BooleanLiteral",
       "offset": 1294,
       "length": 5,
