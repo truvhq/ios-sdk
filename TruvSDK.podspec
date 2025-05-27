@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TruvSDK'
-  s.version          = '1.5.1'
+  s.version          = '1.6.0'
   s.summary          = 'The TruvSDK for iOS.'
   s.description      = <<-DESC
     The TruvSDK for iOS streamlines the integration of the Truv Bridge with your app. The integration allows end users to verify income, do direct deposit switch or share earned wages in a matter of seconds.
