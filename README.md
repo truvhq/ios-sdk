@@ -39,4 +39,4 @@ With the `TruvBridgeView`, end-users can select their employer, authenticate wit
 ## TruvDelegate
 
 The `TruvDelegate` protocol is set up such that every event goes through the required `func onEvent(_ event: TruvEvent)` handler.   
-See the [events page](https://docs.truv.com/docs/events) of the documentation for more details.
+See the [events page](https://docs.truv.com/docs/event-reference-for-truv-bridge) of the documentation for more details.
