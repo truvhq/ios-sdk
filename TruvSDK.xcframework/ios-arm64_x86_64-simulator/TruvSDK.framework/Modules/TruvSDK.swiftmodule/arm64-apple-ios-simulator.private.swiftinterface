@@ -21,10 +21,12 @@ public protocol TruvDelegate : AnyObject {
 extension TruvSDK.TruvDelegate {
   public func onRawEvent(_ event: Swift.String, _ payload: Swift.String)
 }
+public struct AnalyticsConfig {
+}
 @_Concurrency.MainActor @preconcurrency public struct LoginControllerBridge : SwiftUI.UIViewControllerRepresentable {
   @_Concurrency.MainActor @preconcurrency public let loginInfo: TruvSDK.TruvProviderAuthDetails
   @_Concurrency.MainActor @preconcurrency public let onLogin: (TruvSDK.LoginResult) -> ()
-  @_Concurrency.MainActor @preconcurrency public init(loginInfo: TruvSDK.TruvProviderAuthDetails, onLogin: @escaping (TruvSDK.LoginResult) -> ())
+  @_Concurrency.MainActor @preconcurrency public init(loginInfo: TruvSDK.TruvProviderAuthDetails, onLogin: @escaping (TruvSDK.LoginResult) -> (), analyticsConfig: TruvSDK.AnalyticsConfig?)
   @_Concurrency.MainActor @preconcurrency public func makeUIViewController(context: TruvSDK.LoginControllerBridge.Context) -> UIKit.UIViewController
   @_Concurrency.MainActor @preconcurrency public func updateUIViewController(_ uiViewController: UIKit.UIViewController, context: TruvSDK.LoginControllerBridge.Context)
   public typealias Body = Swift.Never
@@ -124,10 +126,6 @@ public struct TruvError : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct LoginWebViewInputParameters {
-}
-@_hasMissingDesignatedInitializers public class LoginScene {
-  public static func buildScene(inputParameters: TruvSDK.LoginWebViewInputParameters) -> UIKit.UIViewController
-  @objc deinit
 }
 public struct LoginResult : Swift.Encodable {
   public let cookies: [TruvSDK.Cookie]
@@ -232,10 +230,11 @@ public enum TruvEvent : Swift.Encodable {
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct TruvSDKConfig {
-  public let baseURL: Swift.String
+  public let cdnURL: Swift.String
+  public let apiURL: Swift.String
   public let isDebug: Swift.Bool
   public let platform: TruvSDK.TruvPlatform
-  public init(baseURL: Swift.String, isDebug: Swift.Bool = false, platform: TruvSDK.TruvPlatform = .native)
+  public init(cdnURL: Swift.String, apiURL: Swift.String, isDebug: Swift.Bool = false, platform: TruvSDK.TruvPlatform = .native)
   public static var `default`: TruvSDK.TruvSDKConfig
 }
 public struct BrowserStorageValues : Swift.Encodable {
