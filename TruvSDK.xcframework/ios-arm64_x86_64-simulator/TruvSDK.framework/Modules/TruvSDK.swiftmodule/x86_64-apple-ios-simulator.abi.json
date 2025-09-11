@@ -8581,28 +8581,28 @@
     {
       "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1203,
+      "offset": 1142,
       "length": 10,
       "value": "\"callback\""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1312,
+      "offset": 1251,
       "length": 18,
       "value": "\"External Webview\""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1631,
+      "offset": 1570,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1741,
+      "offset": 1680,
       "length": 4,
       "value": "true"
     },
