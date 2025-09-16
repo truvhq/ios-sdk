@@ -56,7 +56,6 @@ public struct TruvProviderAuthDetails : Swift.Decodable, Swift.Equatable {
   public let script: TruvSDK.ScriptConfig?
   public let user_agent: TruvSDK.TruvUserAgent?
   public let logo: Swift.String?
-  public init(is_logged_in: TruvSDK.ProviderAuthLoginDetails, url: Swift.String, provider_id: Swift.String, script: TruvSDK.ScriptConfig?, user_agent: TruvSDK.TruvUserAgent?, logo: Swift.String?)
   public static func == (a: TruvSDK.TruvProviderAuthDetails, b: TruvSDK.TruvProviderAuthDetails) -> Swift.Bool
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -70,16 +69,15 @@ public struct ProviderAuthLoginDetails : Swift.Decodable, Swift.Equatable {
   public let selector: Swift.String?
   public let url: Swift.String?
   public let script_url: Swift.String?
-  public init(selector: Swift.String?, url: Swift.String?, script_url: Swift.String?)
   public static func == (a: TruvSDK.ProviderAuthLoginDetails, b: TruvSDK.ProviderAuthLoginDetails) -> Swift.Bool
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct ScriptConfig : Swift.Decodable, Swift.Equatable {
+  public let inline_code_before: Swift.String?
   public let url: Swift.String?
   public let callback_url: Swift.String?
   public let callback_method: Swift.String?
   public let callback_headers: [Swift.String : Swift.String]?
-  public init(url: Swift.String?, callback_url: Swift.String?, callback_method: Swift.String?, callback_headers: [Swift.String : Swift.String]?)
   public static func == (a: TruvSDK.ScriptConfig, b: TruvSDK.ScriptConfig) -> Swift.Bool
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -132,6 +130,7 @@ public struct LoginResult : Swift.Encodable {
   public let dashboardUrl: Swift.String
   public let tags: [Swift.String]
   public let browserStorageValues: [TruvSDK.BrowserStorageValues]
+  public let seenUrls: [Swift.String]
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct TruvEventPayload : Swift.Codable {
