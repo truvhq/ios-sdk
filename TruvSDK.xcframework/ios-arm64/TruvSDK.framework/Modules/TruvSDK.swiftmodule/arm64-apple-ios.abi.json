@@ -173,6 +173,41 @@
         "kind": "TypeDecl",
         "name": "AnalyticsConfig",
         "printedName": "AnalyticsConfig",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(apiUrl:bridgeToken:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnalyticsConfig",
+                "printedName": "TruvSDK.AnalyticsConfig",
+                "usr": "s:7TruvSDK15AnalyticsConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7TruvSDK15AnalyticsConfigV6apiUrl11bridgeTokenACSS_SStcfc",
+            "mangledName": "$s7TruvSDK15AnalyticsConfigV6apiUrl11bridgeTokenACSS_SStcfc",
+            "moduleName": "TruvSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
         "declKind": "Struct",
         "usr": "s:7TruvSDK15AnalyticsConfigV",
         "mangledName": "$s7TruvSDK15AnalyticsConfigV",

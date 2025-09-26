@@ -22,6 +22,7 @@ extension TruvSDK.TruvDelegate {
   public func onRawEvent(_ event: Swift.String, _ payload: Swift.String)
 }
 public struct AnalyticsConfig {
+  public init(apiUrl: Swift.String, bridgeToken: Swift.String)
 }
 @_Concurrency.MainActor @preconcurrency public struct LoginControllerBridge : SwiftUI.UIViewControllerRepresentable {
   @_Concurrency.MainActor @preconcurrency public let loginInfo: TruvSDK.TruvProviderAuthDetails
