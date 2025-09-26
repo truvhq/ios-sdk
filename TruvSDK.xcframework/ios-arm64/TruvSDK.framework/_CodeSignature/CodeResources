@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		36YN23Si2rXaW4wnoh24R4gy0xs=
+		XIWA2mSqHuBEjTT4c46pWRYJ6hQ=
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		+ccNAEeBuIfmYEKBMlZlGHNvw6M=
+		8K2KnTrjpYvE4Jts++95gEMA4PA=
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		+ccNAEeBuIfmYEKBMlZlGHNvw6M=
+		8K2KnTrjpYvE4Jts++95gEMA4PA=
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		zqnlgk6eKyiAW/Eg/SyWPwabZlw=
+		8Tycq39Ohs4tOflLoN8v7ObHaSQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,14 +61,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TqN2mKEIOYVd2k+DlLa5/+xKqXjRf9Z4EkrFcEMXWQU=
+			WiwOeKmr8msqz13AWs//pDVDJM3f2jI10dz/e573WxY=
 			</data>
 		</dict>
 		<key>Modules/TruvSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NmLCChsThvhqL23Baf5BgY49y20fblK1hLfTtm3gki4=
+			vc9Zj8s9WWfTi8zp39FOK2X/B/XyFlG/WQt+/+WIX5E=
 			</data>
 		</dict>
 		<key>Modules/TruvSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -82,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NmLCChsThvhqL23Baf5BgY49y20fblK1hLfTtm3gki4=
+			vc9Zj8s9WWfTi8zp39FOK2X/B/XyFlG/WQt+/+WIX5E=
 			</data>
 		</dict>
 		<key>Modules/TruvSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o6wlQLMbcWkp/06Aj3C2sXfZelItzSgF01/kkhLyUWM=
+			h+n6j8xkKMwUYaft6XVz1Ho/sh90k3aWoF1T4t8wGbk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

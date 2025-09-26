@@ -1337,6 +1337,87 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(is_logged_in:url:provider_id:script:user_agent:logo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TruvProviderAuthDetails",
+                "printedName": "TruvSDK.TruvProviderAuthDetails",
+                "usr": "s:7TruvSDK0A19ProviderAuthDetailsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProviderAuthLoginDetails",
+                "printedName": "TruvSDK.ProviderAuthLoginDetails",
+                "usr": "s:7TruvSDK24ProviderAuthLoginDetailsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TruvSDK.ScriptConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScriptConfig",
+                    "printedName": "TruvSDK.ScriptConfig",
+                    "usr": "s:7TruvSDK12ScriptConfigV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TruvSDK.TruvUserAgent?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TruvUserAgent",
+                    "printedName": "TruvSDK.TruvUserAgent",
+                    "usr": "s:7TruvSDK0A9UserAgentV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7TruvSDK0A19ProviderAuthDetailsV12is_logged_in3url11provider_id6script10user_agent4logoAcA0cd5LoginE0V_S2SAA12ScriptConfigVSgAA0A9UserAgentVSgSSSgtcfc",
+            "mangledName": "$s7TruvSDK0A19ProviderAuthDetailsV12is_logged_in3url11provider_id6script10user_agent4logoAcA0cd5LoginE0V_S2SAA12ScriptConfigVSgAA0A9UserAgentVSgSSSgtcfc",
+            "moduleName": "TruvSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(from:)",
             "children": [
               {
@@ -1816,6 +1897,69 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(selector:url:script_url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProviderAuthLoginDetails",
+                "printedName": "TruvSDK.ProviderAuthLoginDetails",
+                "usr": "s:7TruvSDK24ProviderAuthLoginDetailsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7TruvSDK24ProviderAuthLoginDetailsV8selector3url07script_H0ACSSSg_A2Gtcfc",
+            "mangledName": "$s7TruvSDK24ProviderAuthLoginDetailsV8selector3url07script_H0ACSSSg_A2Gtcfc",
+            "moduleName": "TruvSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(from:)",
             "children": [
               {
@@ -2242,6 +2386,111 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(url:callback_url:callback_method:callback_headers:inline_code_before:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ScriptConfig",
+                "printedName": "TruvSDK.ScriptConfig",
+                "usr": "s:7TruvSDK12ScriptConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7TruvSDK12ScriptConfigV3url09callback_E00F7_method0F8_headers18inline_code_beforeACSSSg_A2ISDyS2SGSgAItcfc",
+            "mangledName": "$s7TruvSDK12ScriptConfigV3url09callback_E00F7_method0F8_headers18inline_code_beforeACSSSg_A2ISDyS2SGSgAItcfc",
+            "moduleName": "TruvSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
           },
           {
             "kind": "Constructor",
