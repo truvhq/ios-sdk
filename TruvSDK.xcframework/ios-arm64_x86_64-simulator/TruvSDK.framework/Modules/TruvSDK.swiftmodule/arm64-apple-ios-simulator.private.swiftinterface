@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name TruvSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import AVFoundation
 import Combine
 import Foundation
@@ -27,7 +27,9 @@ public struct AnalyticsConfig {
 @_Concurrency.MainActor @preconcurrency public struct LoginControllerBridge : SwiftUI.UIViewControllerRepresentable {
   @_Concurrency.MainActor @preconcurrency public let loginInfo: TruvSDK.TruvProviderAuthDetails
   @_Concurrency.MainActor @preconcurrency public let onLogin: (TruvSDK.LoginResult) -> ()
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(loginInfo: TruvSDK.TruvProviderAuthDetails, onLogin: @escaping (TruvSDK.LoginResult) -> (), analyticsConfig: TruvSDK.AnalyticsConfig?)
+  #endif
   @_Concurrency.MainActor @preconcurrency public func makeUIViewController(context: TruvSDK.LoginControllerBridge.Context) -> UIKit.UIViewController
   @_Concurrency.MainActor @preconcurrency public func updateUIViewController(_ uiViewController: UIKit.UIViewController, context: TruvSDK.LoginControllerBridge.Context)
   public typealias Body = Swift.Never
@@ -57,13 +59,17 @@ public struct TruvProviderAuthDetails : Swift.Decodable, Swift.Equatable {
   public let script: TruvSDK.ScriptConfig?
   public let user_agent: TruvSDK.TruvUserAgent?
   public let logo: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(is_logged_in: TruvSDK.ProviderAuthLoginDetails, url: Swift.String, provider_id: Swift.String, script: TruvSDK.ScriptConfig?, user_agent: TruvSDK.TruvUserAgent?, logo: Swift.String?)
+  #endif
   public static func == (a: TruvSDK.TruvProviderAuthDetails, b: TruvSDK.TruvProviderAuthDetails) -> Swift.Bool
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct TruvUserAgent : Swift.Decodable, Swift.Equatable {
   public let ios: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(ios: Swift.String?)
+  #endif
   public static func == (a: TruvSDK.TruvUserAgent, b: TruvSDK.TruvUserAgent) -> Swift.Bool
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -71,7 +77,9 @@ public struct ProviderAuthLoginDetails : Swift.Decodable, Swift.Equatable {
   public let selector: Swift.String?
   public let url: Swift.String?
   public let script_url: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(selector: Swift.String?, url: Swift.String?, script_url: Swift.String?)
+  #endif
   public static func == (a: TruvSDK.ProviderAuthLoginDetails, b: TruvSDK.ProviderAuthLoginDetails) -> Swift.Bool
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -81,7 +89,9 @@ public struct ScriptConfig : Swift.Decodable, Swift.Equatable {
   public let callback_url: Swift.String?
   public let callback_method: Swift.String?
   public let callback_headers: [Swift.String : Swift.String]?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(url: Swift.String?, callback_url: Swift.String?, callback_method: Swift.String?, callback_headers: [Swift.String : Swift.String]?, inline_code_before: Swift.String?)
+  #endif
   public static func == (a: TruvSDK.ScriptConfig, b: TruvSDK.ScriptConfig) -> Swift.Bool
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -91,7 +101,9 @@ public struct TruvEmployer : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class TruvBridgeController : UIKit.UIViewController {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(token: Swift.String, delegate: (any TruvSDK.TruvDelegate)? = nil, config: TruvSDK.TruvSDKConfig = .default)
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
   @objc deinit
 }
@@ -106,7 +118,9 @@ public struct TruvError : Swift.Codable {
   public let message: Swift.String
   public enum ErrorType : Swift.String, Swift.Codable {
     case link
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -118,7 +132,9 @@ public struct TruvError : Swift.Codable {
     case mfaError
     case loginError
     case error
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -172,7 +188,9 @@ public struct TruvEventPayload : Swift.Codable {
     case documentsUploaded
     case docUploadOpened
     case oauthOpened
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -183,7 +201,9 @@ public struct TruvEventPayload : Swift.Codable {
     case download
     case email
     case share
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -203,11 +223,15 @@ public struct Cookie : Swift.Encodable {
   public func encode(to encoder: any Swift.Encoder) throws
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class TruvBridgeView : UIKit.UIView {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(token: Swift.String, delegate: (any TruvSDK.TruvDelegate)? = nil, config: TruvSDK.TruvSDKConfig = .default)
+  #endif
   @objc deinit
 }
 extension TruvSDK.TruvBridgeView : WebKit.WKUIDelegate {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc final public func webView(_ webView: WebKit.WKWebView, createWebViewWith configuration: WebKit.WKWebViewConfiguration, for navigationAction: WebKit.WKNavigationAction, windowFeatures: WebKit.WKWindowFeatures) -> WebKit.WKWebView?
+  #endif
 }
 extension TruvSDK.TruvBridgeView : WebKit.WKNavigationDelegate {
   @_Concurrency.MainActor @preconcurrency @objc final public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
@@ -218,7 +242,9 @@ public enum TruvEventType : Swift.String {
   case onEvent
   case onLoad
   case onSuccess
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
