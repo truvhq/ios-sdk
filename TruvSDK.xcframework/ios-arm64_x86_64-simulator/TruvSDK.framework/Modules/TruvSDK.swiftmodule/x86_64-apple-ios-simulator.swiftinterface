@@ -60,11 +60,12 @@ public struct TruvProviderAuthDetails : Swift.Decodable, Swift.Equatable {
   public let script: TruvSDK.ScriptConfig?
   public let user_agent: TruvSDK.TruvUserAgent?
   public let logo: Swift.String?
+  public let debug: TruvSDK.ExternalLoginDebugConfig?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(is_logged_in: TruvSDK.ProviderAuthLoginDetails, url: Swift.String, provider_id: Swift.String, script: TruvSDK.ScriptConfig?, user_agent: TruvSDK.TruvUserAgent?, logo: Swift.String?)
+  public init(is_logged_in: TruvSDK.ProviderAuthLoginDetails, url: Swift.String, provider_id: Swift.String, script: TruvSDK.ScriptConfig?, user_agent: TruvSDK.TruvUserAgent?, logo: Swift.String?, debug: TruvSDK.ExternalLoginDebugConfig?)
   #endif
-  public static func == (a: TruvSDK.TruvProviderAuthDetails, b: TruvSDK.TruvProviderAuthDetails) -> Swift.Bool
   public init(from decoder: any Swift.Decoder) throws
+  public static func == (a: TruvSDK.TruvProviderAuthDetails, b: TruvSDK.TruvProviderAuthDetails) -> Swift.Bool
 }
 public struct TruvUserAgent : Swift.Decodable, Swift.Equatable {
   public let ios: Swift.String?
@@ -212,6 +213,12 @@ public struct TruvEventPayload : Swift.Codable {
   }
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+public struct ExternalLoginDebugConfig : Swift.Decodable, Swift.Equatable {
+  public let platform: Swift.String
+  public let secondScreenshotDelayMs: Swift.Int
+  public init(from decoder: any Swift.Decoder) throws
+  public static func == (a: TruvSDK.ExternalLoginDebugConfig, b: TruvSDK.ExternalLoginDebugConfig) -> Swift.Bool
 }
 public struct Cookie : Swift.Encodable {
   public var name: Swift.String
