@@ -599,6 +599,13 @@
       },
       {
         "kind": "Import",
+        "name": "AuthenticationServices",
+        "printedName": "AuthenticationServices",
+        "declKind": "Import",
+        "moduleName": "TruvSDK"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1018,6 +1025,26 @@
         "moduleName": "TruvSDK"
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "TruvSDK",
+        "declAttributes": [
+          "Preconcurrency"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "TruvProviderAuthDetails",
         "printedName": "TruvProviderAuthDetails",
@@ -1335,9 +1362,69 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "debug",
+            "printedName": "debug",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TruvSDK.ExternalLoginDebugConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExternalLoginDebugConfig",
+                    "printedName": "TruvSDK.ExternalLoginDebugConfig",
+                    "usr": "s:7TruvSDK24ExternalLoginDebugConfigV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7TruvSDK0A19ProviderAuthDetailsV5debugAA24ExternalLoginDebugConfigVSgvp",
+            "mangledName": "$s7TruvSDK0A19ProviderAuthDetailsV5debugAA24ExternalLoginDebugConfigVSgvp",
+            "moduleName": "TruvSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TruvSDK.ExternalLoginDebugConfig?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExternalLoginDebugConfig",
+                        "printedName": "TruvSDK.ExternalLoginDebugConfig",
+                        "usr": "s:7TruvSDK24ExternalLoginDebugConfigV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7TruvSDK0A19ProviderAuthDetailsV5debugAA24ExternalLoginDebugConfigVSgvg",
+                "mangledName": "$s7TruvSDK0A19ProviderAuthDetailsV5debugAA24ExternalLoginDebugConfigVSgvg",
+                "moduleName": "TruvSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(is_logged_in:url:provider_id:script:user_agent:logo:)",
+            "printedName": "init(is_logged_in:url:provider_id:script:user_agent:logo:debug:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1404,11 +1491,25 @@
                   }
                 ],
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TruvSDK.ExternalLoginDebugConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExternalLoginDebugConfig",
+                    "printedName": "TruvSDK.ExternalLoginDebugConfig",
+                    "usr": "s:7TruvSDK24ExternalLoginDebugConfigV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7TruvSDK0A19ProviderAuthDetailsV12is_logged_in3url11provider_id6script10user_agent4logoAcA0cd5LoginE0V_S2SAA12ScriptConfigVSgAA0A9UserAgentVSgSSSgtcfc",
-            "mangledName": "$s7TruvSDK0A19ProviderAuthDetailsV12is_logged_in3url11provider_id6script10user_agent4logoAcA0cd5LoginE0V_S2SAA12ScriptConfigVSgAA0A9UserAgentVSgSSSgtcfc",
+            "usr": "s:7TruvSDK0A19ProviderAuthDetailsV12is_logged_in3url11provider_id6script10user_agent4logo5debugAcA0cd5LoginE0V_S2SAA12ScriptConfigVSgAA0A9UserAgentVSgSSSgAA08Externalq5DebugS0VSgtcfc",
+            "mangledName": "$s7TruvSDK0A19ProviderAuthDetailsV12is_logged_in3url11provider_id6script10user_agent4logo5debugAcA0cd5LoginE0V_S2SAA12ScriptConfigVSgAA0A9UserAgentVSgSSSgAA08Externalq5DebugS0VSgtcfc",
             "moduleName": "TruvSDK",
             "declAttributes": [
               "AccessControl"
@@ -1437,7 +1538,9 @@
             "usr": "s:7TruvSDK0A19ProviderAuthDetailsV4fromACs7Decoder_p_tKcfc",
             "mangledName": "$s7TruvSDK0A19ProviderAuthDetailsV4fromACs7Decoder_p_tKcfc",
             "moduleName": "TruvSDK",
-            "implicit": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
             "throwing": true,
             "init_kind": "Designated"
           },
@@ -2591,6 +2694,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TruvSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
         "declKind": "Import",
@@ -3001,6 +3114,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -6440,6 +6560,208 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ExternalLoginDebugConfig",
+        "printedName": "ExternalLoginDebugConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "platform",
+            "printedName": "platform",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7TruvSDK24ExternalLoginDebugConfigV8platformSSvp",
+            "mangledName": "$s7TruvSDK24ExternalLoginDebugConfigV8platformSSvp",
+            "moduleName": "TruvSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7TruvSDK24ExternalLoginDebugConfigV8platformSSvg",
+                "mangledName": "$s7TruvSDK24ExternalLoginDebugConfigV8platformSSvg",
+                "moduleName": "TruvSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "secondScreenshotDelayMs",
+            "printedName": "secondScreenshotDelayMs",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7TruvSDK24ExternalLoginDebugConfigV23secondScreenshotDelayMsSivp",
+            "mangledName": "$s7TruvSDK24ExternalLoginDebugConfigV23secondScreenshotDelayMsSivp",
+            "moduleName": "TruvSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7TruvSDK24ExternalLoginDebugConfigV23secondScreenshotDelayMsSivg",
+                "mangledName": "$s7TruvSDK24ExternalLoginDebugConfigV23secondScreenshotDelayMsSivg",
+                "moduleName": "TruvSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ExternalLoginDebugConfig",
+                "printedName": "TruvSDK.ExternalLoginDebugConfig",
+                "usr": "s:7TruvSDK24ExternalLoginDebugConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7TruvSDK24ExternalLoginDebugConfigV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s7TruvSDK24ExternalLoginDebugConfigV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "TruvSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ExternalLoginDebugConfig",
+                "printedName": "TruvSDK.ExternalLoginDebugConfig",
+                "usr": "s:7TruvSDK24ExternalLoginDebugConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ExternalLoginDebugConfig",
+                "printedName": "TruvSDK.ExternalLoginDebugConfig",
+                "usr": "s:7TruvSDK24ExternalLoginDebugConfigV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7TruvSDK24ExternalLoginDebugConfigV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s7TruvSDK24ExternalLoginDebugConfigV2eeoiySbAC_ACtFZ",
+            "moduleName": "TruvSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7TruvSDK24ExternalLoginDebugConfigV",
+        "mangledName": "$s7TruvSDK24ExternalLoginDebugConfigV",
+        "moduleName": "TruvSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "Cookie",
         "printedName": "Cookie",
@@ -7392,6 +7714,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -8806,6 +9135,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       }
@@ -8830,63 +9166,70 @@
     {
       "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 388,
+      "offset": 484,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 439,
+      "offset": 535,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 643,
+      "offset": 739,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 814,
+      "offset": 910,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 876,
+      "offset": 972,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1333,
+      "offset": 1429,
       "length": 10,
       "value": "\"callback\""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1442,
+      "offset": 1507,
+      "length": 16,
+      "value": "\"analyticsTrack\""
+    },
+    {
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1622,
       "length": 18,
       "value": "\"External Webview\""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1761,
+      "offset": 1941,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1871,
+      "offset": 2051,
       "length": 4,
       "value": "true"
     },
@@ -8903,6 +9246,34 @@
       "offset": 466,
       "length": 14,
       "value": "\"public_token\""
+    },
+    {
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
+      "kind": "StringLiteral",
+      "offset": 204,
+      "length": 13,
+      "value": "\"page_loaded\""
+    },
+    {
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
+      "kind": "StringLiteral",
+      "offset": 246,
+      "length": 19,
+      "value": "\"second_screenshot\""
+    },
+    {
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
+      "kind": "StringLiteral",
+      "offset": 290,
+      "length": 15,
+      "value": "\"loading_error\""
+    },
+    {
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
+      "kind": "StringLiteral",
+      "offset": 333,
+      "length": 18,
+      "value": "\"dialog_dismissed\""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
@@ -8952,6 +9323,13 @@
       "offset": 193,
       "length": 21,
       "value": "\"\/oauth-success.html\""
+    },
+    {
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 268,
+      "length": 137,
+      "value": "\"Mozilla\/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit\/605.1.15 (KHTML, like Gecko) Version\/26.2 Mobile\/15E148 Safari\/604.1\""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeController.swift",
@@ -9022,6 +9400,41 @@
       "offset": 586,
       "length": 15,
       "value": "\"error_message\""
+    },
+    {
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/MobileConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1374,
+      "length": 8,
+      "value": "\"legacy\""
+    },
+    {
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/MobileConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1401,
+      "length": 8,
+      "value": "\"safari\""
+    },
+    {
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/MobileConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1429,
+      "length": 9,
+      "value": "\"session\""
+    },
+    {
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/MobileConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1559,
+      "length": 10,
+      "value": "\"disabled\""
+    },
+    {
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/MobileConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1584,
+      "length": 4,
+      "value": "\"v1\""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
@@ -9456,6 +9869,13 @@
       "offset": 1219,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/ExternalLoginDebugConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 360,
+      "length": 28,
+      "value": "\"second_screenshot_delay_ms\""
     },
     {
       "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBridgeView.swift",
