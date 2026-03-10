@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/TruvSDK-Swift.h</key>
 		<data>
-		Ct7VFFFQ6sGvpIw3tKiiv2ryii4=
+		VqHyeU9Zb8o+ALfSbZiArQhjeZ4=
 		</data>
 		<key>Headers/TruvSDK.h</key>
 		<data>
@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		L2PQmN3rFg3jSwIYpQNybE+Zb+E=
+		MH2as6Q9pwzVWFnmAXknteXg08c=
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		OfE8wvLx9TPwBLVrQdGlA5o44cE=
+		cMioQvpcCOKZB4eb2HXFTk/fazc=
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		X5WETsvmlKZpktUrz0PK2Gx+kEI=
+		V0GTR1aMlo4Zmf8Ut4FNVpsG4U8=
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		X5WETsvmlKZpktUrz0PK2Gx+kEI=
+		V0GTR1aMlo4Zmf8Ut4FNVpsG4U8=
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cWROxXcWqE9SUl6JPG+W18kXxRk=
+		BWn8q7+oq72kJLU3YNTYjG33wBQ=
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		OfE8wvLx9TPwBLVrQdGlA5o44cE=
+		cMioQvpcCOKZB4eb2HXFTk/fazc=
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		9DNeRhVTEiGm/Il2B8keIAaa718=
+		BhNzeCsrVZWtKqxyUkvd+5Y8Bjs=
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		9DNeRhVTEiGm/Il2B8keIAaa718=
+		BhNzeCsrVZWtKqxyUkvd+5Y8Bjs=
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rB2Hjv186uKksWPlcWCIMwnnPWM=
+		H9n9ZkC87UtyfuwNkj0i9qGeVRs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4Okz+gHYmOOmYXG6//GQmtSOuzt/ER4qrm0CtCrTOQE=
+			qWLvVbr/i7ryvXtIQFzzU24ljaq45z+jRzTH9M0Ime0=
 			</data>
 		</dict>
 		<key>Headers/TruvSDK.h</key>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uv5IKvgu9FcOfZEEsmTqVdQdDizWEDhbQX0FpI3tJEA=
+			RBIfpxXfNP/p7+I2ru3+Cp4Aw6lgf0Jd9vx4VOLVusc=
 			</data>
 		</dict>
 		<key>Modules/TruvSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2lnNshrPN18Kj7oixwFAZxjhA0lbtoo87COotqewfUQ=
+			lD3S5S527koJDfEAXzU5/IRZgqu8R8sRRSXwnAlQx0g=
 			</data>
 		</dict>
 		<key>Modules/TruvSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2lnNshrPN18Kj7oixwFAZxjhA0lbtoo87COotqewfUQ=
+			lD3S5S527koJDfEAXzU5/IRZgqu8R8sRRSXwnAlQx0g=
 			</data>
 		</dict>
 		<key>Modules/TruvSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wuN35m2dcCLkrhMwgdBcAxWbp3OQy+TGQH4h6WHerPI=
+			qMO/MdARolgNVPW4q9T9GtVjVsP5/hijLiq0vtIMaxM=
 			</data>
 		</dict>
 		<key>Modules/TruvSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uv5IKvgu9FcOfZEEsmTqVdQdDizWEDhbQX0FpI3tJEA=
+			RBIfpxXfNP/p7+I2ru3+Cp4Aw6lgf0Jd9vx4VOLVusc=
 			</data>
 		</dict>
 		<key>Modules/TruvSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RAg6Gr5ebNrHOiv4bc7VCAvMH9XH+ZFYkdRJTr4EZgk=
+			dMT+hPUUYQ7QCZ9OEI4K8WIGq9fvoRPAwQtXrmPtHGA=
 			</data>
 		</dict>
 		<key>Modules/TruvSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RAg6Gr5ebNrHOiv4bc7VCAvMH9XH+ZFYkdRJTr4EZgk=
+			dMT+hPUUYQ7QCZ9OEI4K8WIGq9fvoRPAwQtXrmPtHGA=
 			</data>
 		</dict>
 		<key>Modules/TruvSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NuLGd/B02O7NYFOsCMQg1HkT0vLY4BDOi93CA/lBYCA=
+			FunP46mA+RBqNHHi+EdJfM1R9fGJeRVk/EuHrCTnQK0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

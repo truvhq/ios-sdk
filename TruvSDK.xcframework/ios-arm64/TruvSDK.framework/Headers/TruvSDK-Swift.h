@@ -309,29 +309,45 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class NSCoder;
 @class NSString;
 @class NSBundle;
-SWIFT_CLASS("_TtC7TruvSDK20TruvBridgeController")
-@interface TruvBridgeController : UIViewController
+SWIFT_CLASS("_TtC7TruvSDK18TruvBaseController")
+@interface TruvBaseController : UIViewController
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
-SWIFT_CLASS("_TtC7TruvSDK14TruvBridgeView")
-@interface TruvBridgeView : UIView
+SWIFT_CLASS("_TtC7TruvSDK12TruvBaseView")
+@interface TruvBaseView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
 @class WKWebView;
 @class WKNavigationAction;
-@interface TruvBridgeView (SWIFT_EXTENSION(TruvSDK)) <WKNavigationDelegate>
+@interface TruvBaseView (SWIFT_EXTENSION(TruvSDK)) <WKNavigationDelegate>
 - (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))decisionHandler;
 @end
 
 @class WKWebViewConfiguration;
 @class WKWindowFeatures;
-@interface TruvBridgeView (SWIFT_EXTENSION(TruvSDK)) <WKUIDelegate>
+@interface TruvBaseView (SWIFT_EXTENSION(TruvSDK)) <WKUIDelegate>
 - (WKWebView * _Nullable)webView:(WKWebView * _Nonnull)webView createWebViewWithConfiguration:(WKWebViewConfiguration * _Nonnull)configuration forNavigationAction:(WKNavigationAction * _Nonnull)navigationAction windowFeatures:(WKWindowFeatures * _Nonnull)windowFeatures SWIFT_WARN_UNUSED_RESULT;
+@end
+
+SWIFT_CLASS("_TtC7TruvSDK20TruvBridgeController")
+@interface TruvBridgeController : TruvBaseController
+@end
+
+SWIFT_CLASS("_TtC7TruvSDK14TruvBridgeView")
+@interface TruvBridgeView : TruvBaseView
+@end
+
+SWIFT_CLASS("_TtC7TruvSDK19TruvOrderController")
+@interface TruvOrderController : TruvBaseController
+@end
+
+SWIFT_CLASS("_TtC7TruvSDK13TruvOrderView")
+@interface TruvOrderView : TruvBaseView
 @end
 
 #endif

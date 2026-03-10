@@ -17,10 +17,31 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 public protocol TruvDelegate : AnyObject {
   func onEvent(_ event: TruvSDK.TruvEvent)
-  func onRawEvent(_ event: Swift.String, _ payload: Swift.String)
+  func onRawEvent(_ event: Swift.String, _ payload: Swift.String, _ source: Swift.String)
 }
 extension TruvSDK.TruvDelegate {
-  public func onRawEvent(_ event: Swift.String, _ payload: Swift.String)
+  public func onRawEvent(_ event: Swift.String, _ payload: Swift.String, _ source: Swift.String)
+}
+public protocol TruvOrderDelegate : AnyObject {
+  func onOrderEvent(_ event: TruvSDK.TruvOrderEvent)
+  func onBridgeEvent(_ event: TruvSDK.TruvEventPayload)
+  func onRawEvent(_ event: Swift.String, _ payload: Swift.String, _ source: Swift.String)
+}
+extension TruvSDK.TruvOrderDelegate {
+  public func onOrderEvent(_ event: TruvSDK.TruvOrderEvent)
+  public func onBridgeEvent(_ event: TruvSDK.TruvEventPayload)
+  public func onRawEvent(_ event: Swift.String, _ payload: Swift.String, _ source: Swift.String)
+}
+public enum TruvOrderEvent {
+  case close
+  case load
+  case success
+  case completed
+  public static func == (a: TruvSDK.TruvOrderEvent, b: TruvSDK.TruvOrderEvent) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 public struct AnalyticsConfig {
   public init(apiUrl: Swift.String, bridgeToken: Swift.String)
@@ -102,11 +123,10 @@ public struct TruvEmployer : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class TruvBridgeController : UIKit.UIViewController {
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class TruvBridgeController : TruvSDK.TruvBaseController {
   #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(token: Swift.String, delegate: (any TruvSDK.TruvDelegate)? = nil, config: TruvSDK.TruvSDKConfig = .default)
   #endif
-  @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
   @objc deinit
 }
 public enum TruvPlatform {
@@ -147,6 +167,16 @@ public struct TruvError : Swift.Codable {
 }
 public struct LoginWebViewInputParameters {
 }
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class TruvOrderController : TruvSDK.TruvBaseController {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public init(token: Swift.String, delegate: (any TruvSDK.TruvOrderDelegate)? = nil, config: TruvSDK.TruvSDKConfig = .default)
+  #endif
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class TruvBaseController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @objc deinit
+}
 public struct LoginResult : Swift.Encodable {
   public let cookies: [TruvSDK.Cookie]
   public let dashboardUrl: Swift.String
@@ -154,6 +184,23 @@ public struct LoginResult : Swift.Encodable {
   public let browserStorageValues: [TruvSDK.BrowserStorageValues]
   public let seenUrls: [Swift.String]
   public func encode(to encoder: any Swift.Encoder) throws
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class TruvBaseView : UIKit.UIView {
+  @objc deinit
+}
+extension TruvSDK.TruvBaseView : WebKit.WKUIDelegate {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, createWebViewWith configuration: WebKit.WKWebViewConfiguration, for navigationAction: WebKit.WKNavigationAction, windowFeatures: WebKit.WKWindowFeatures) -> WebKit.WKWebView?
+  #endif
+}
+extension TruvSDK.TruvBaseView : WebKit.WKNavigationDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class TruvOrderView : TruvSDK.TruvBaseView {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public init(token: Swift.String, delegate: (any TruvSDK.TruvOrderDelegate)? = nil, config: TruvSDK.TruvSDKConfig = .default)
+  #endif
+  @objc deinit
 }
 public struct TruvEventPayload : Swift.Codable {
   public let payload: TruvSDK.TruvEventPayload.Payload?
@@ -230,22 +277,15 @@ public struct Cookie : Swift.Encodable {
   public init(params: [Swift.String : Swift.String])
   public func encode(to encoder: any Swift.Encoder) throws
 }
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class TruvBridgeView : UIKit.UIView {
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class TruvBridgeView : TruvSDK.TruvBaseView {
   #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(token: Swift.String, delegate: (any TruvSDK.TruvDelegate)? = nil, config: TruvSDK.TruvSDKConfig = .default)
   #endif
   @objc deinit
 }
-extension TruvSDK.TruvBridgeView : WebKit.WKUIDelegate {
-  #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency @objc final public func webView(_ webView: WebKit.WKWebView, createWebViewWith configuration: WebKit.WKWebViewConfiguration, for navigationAction: WebKit.WKNavigationAction, windowFeatures: WebKit.WKWindowFeatures) -> WebKit.WKWebView?
-  #endif
-}
-extension TruvSDK.TruvBridgeView : WebKit.WKNavigationDelegate {
-  @_Concurrency.MainActor @preconcurrency @objc final public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
-}
 public enum TruvEventType : Swift.String {
   case onClose
+  @available(*, deprecated, message: "This event is never triggered")
   case onError
   case onEvent
   case onLoad
@@ -269,9 +309,11 @@ public enum TruvEvent : Swift.Encodable {
 public struct TruvSDKConfig {
   public let cdnURL: Swift.String
   public let apiURL: Swift.String
+  public let orderURL: Swift.String
+  public let orderEnvironment: Swift.String
   public let isDebug: Swift.Bool
   public let platform: TruvSDK.TruvPlatform
-  public init(cdnURL: Swift.String, apiURL: Swift.String, isDebug: Swift.Bool = false, platform: TruvSDK.TruvPlatform = .native)
+  public init(cdnURL: Swift.String = "https://cdn.truv.com", apiURL: Swift.String = "https://prod.truv.com", orderURL: Swift.String = "https://my.truv.com", orderEnvironment: Swift.String = "mobile-sdk", isDebug: Swift.Bool = false, platform: TruvSDK.TruvPlatform = .native)
   public static var `default`: TruvSDK.TruvSDKConfig
 }
 public struct BrowserStorageValues : Swift.Encodable {
@@ -281,6 +323,8 @@ public struct BrowserStorageValues : Swift.Encodable {
   public let source: Swift.String
   public func encode(to encoder: any Swift.Encoder) throws
 }
+extension TruvSDK.TruvOrderEvent : Swift.Equatable {}
+extension TruvSDK.TruvOrderEvent : Swift.Hashable {}
 extension TruvSDK.LoginControllerBridge : Swift.Sendable {}
 extension TruvSDK.TruvError.ErrorType : Swift.Equatable {}
 extension TruvSDK.TruvError.ErrorType : Swift.Hashable {}
