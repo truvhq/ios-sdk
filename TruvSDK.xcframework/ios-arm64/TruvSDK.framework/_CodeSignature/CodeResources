@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ml1RL9ivSVWVAUoYwkeIX4aokk0=
+		cTjjtmIXlB//AFmjGmINDSwJofM=
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		DhNEv95CqdEQtCQ7wjBG0hdJIPo=
+		u6el54fj01iUeChGcDybdYg8wT8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ntjl4+lIJe+ZyowkCmYGqdiQvuUiTeELhaFg8du1qro=
+			XFQJoDIAGJnLYQlf7pcNjQ0EuB8Zw91SvYan+ijWgk0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

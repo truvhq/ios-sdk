@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		MH2as6Q9pwzVWFnmAXknteXg08c=
+		lE68FwC2ZMNMwlYmNI5Iz/tx45A=
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		BWn8q7+oq72kJLU3YNTYjG33wBQ=
+		lTISvPndOmz+wskrO7395dYWu0U=
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		H9n9ZkC87UtyfuwNkj0i9qGeVRs=
+		eAJaBYMlrpqKVLg5WDMsgR/8Zd4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -109,7 +109,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qMO/MdARolgNVPW4q9T9GtVjVsP5/hijLiq0vtIMaxM=
+			2Ay8tDg0tKekZVNLOt/7BHB/NLHXkUfwZEpxqvogut0=
 			</data>
 		</dict>
 		<key>Modules/TruvSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FunP46mA+RBqNHHi+EdJfM1R9fGJeRVk/EuHrCTnQK0=
+			yNi/Y1ci2ZTVfOg6rSq0q7tTafyOlaLf15V2yRQyxTM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
