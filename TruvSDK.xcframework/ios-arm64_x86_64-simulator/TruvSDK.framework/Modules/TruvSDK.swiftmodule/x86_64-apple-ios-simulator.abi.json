@@ -656,17 +656,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -1414,13 +1414,6 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -1432,6 +1425,13 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               }
             ]
           },
@@ -1504,13 +1504,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -1522,6 +1515,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -2109,13 +2109,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -2127,6 +2120,13 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -2306,13 +2306,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -2324,6 +2317,13 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -2651,13 +2651,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -2669,6 +2662,13 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -3186,13 +3186,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -3204,6 +3197,13 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -3366,13 +3366,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -3384,6 +3377,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -3473,38 +3473,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -3515,17 +3487,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
@@ -3536,10 +3508,31 @@
           },
           {
             "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           },
           {
             "kind": "Conformance",
@@ -3554,6 +3547,13 @@
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -4008,17 +4008,17 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
                 "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               },
               {
                 "kind": "Conformance",
@@ -4346,17 +4346,17 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
                 "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               },
               {
                 "kind": "Conformance",
@@ -4472,13 +4472,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -4490,6 +4483,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -4628,38 +4628,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -4670,17 +4642,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
@@ -4691,10 +4663,31 @@
           },
           {
             "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           },
           {
             "kind": "Conformance",
@@ -4709,6 +4702,13 @@
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -4828,38 +4828,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -4870,17 +4842,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
@@ -4891,10 +4863,31 @@
           },
           {
             "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           },
           {
             "kind": "Conformance",
@@ -4909,6 +4902,13 @@
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -5244,17 +5244,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Encodable",
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -5488,38 +5488,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -5530,17 +5502,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
@@ -5551,17 +5523,31 @@
           },
           {
             "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
           },
           {
             "kind": "Conformance",
-            "name": "__DefaultCustomPlaygroundQuickLookable",
-            "printedName": "__DefaultCustomPlaygroundQuickLookable",
-            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
-            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           },
           {
             "kind": "Conformance",
@@ -5576,6 +5562,20 @@
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -5689,38 +5689,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -5731,17 +5703,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
@@ -5752,17 +5724,31 @@
           },
           {
             "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
           },
           {
             "kind": "Conformance",
-            "name": "__DefaultCustomPlaygroundQuickLookable",
-            "printedName": "__DefaultCustomPlaygroundQuickLookable",
-            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
-            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           },
           {
             "kind": "Conformance",
@@ -5777,6 +5763,20 @@
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -6757,13 +6757,6 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -6775,6 +6768,13 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               }
             ]
           },
@@ -7392,17 +7392,17 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
                 "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               },
               {
                 "kind": "Conformance",
@@ -7693,17 +7693,17 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
                 "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               },
               {
                 "kind": "Conformance",
@@ -7819,13 +7819,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -7837,6 +7830,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -7964,6 +7964,50 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "throttleIntervalMs",
+            "printedName": "throttleIntervalMs",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7TruvSDK24ExternalLoginDebugConfigV18throttleIntervalMsSivp",
+            "mangledName": "$s7TruvSDK24ExternalLoginDebugConfigV18throttleIntervalMsSivp",
+            "moduleName": "TruvSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7TruvSDK24ExternalLoginDebugConfigV18throttleIntervalMsSivg",
+                "mangledName": "$s7TruvSDK24ExternalLoginDebugConfigV18throttleIntervalMsSivg",
+                "moduleName": "TruvSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -8041,13 +8085,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -8059,6 +8096,13 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -8661,17 +8705,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Encodable",
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -8785,38 +8829,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -8827,17 +8843,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
@@ -8848,17 +8864,31 @@
           },
           {
             "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
           },
           {
             "kind": "Conformance",
-            "name": "__DefaultCustomPlaygroundQuickLookable",
-            "printedName": "__DefaultCustomPlaygroundQuickLookable",
-            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
-            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           },
           {
             "kind": "Conformance",
@@ -8873,6 +8903,20 @@
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -9161,17 +9205,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -9500,17 +9544,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Encodable",
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -10206,17 +10250,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Encodable",
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -10314,38 +10358,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -10356,17 +10372,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
@@ -10377,17 +10393,31 @@
           },
           {
             "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
           },
           {
             "kind": "Conformance",
-            "name": "__DefaultCustomPlaygroundQuickLookable",
-            "printedName": "__DefaultCustomPlaygroundQuickLookable",
-            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
-            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           },
           {
             "kind": "Conformance",
@@ -10398,10 +10428,24 @@
           },
           {
             "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "SendableMetatype",
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       }
@@ -10410,917 +10454,1008 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/TruvScriptJsRuntimeErrorHandler.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/TruvScriptJsRuntimeErrorHandler.swift",
       "kind": "StringLiteral",
       "offset": 238,
       "length": 11,
       "value": "\"sendError\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "Array",
       "offset": 180,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 484,
+      "offset": 574,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 535,
+      "offset": 625,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 739,
+      "offset": 829,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 910,
+      "offset": 1000,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 972,
+      "offset": 1062,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1429,
+      "offset": 1519,
       "length": 10,
       "value": "\"callback\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1507,
+      "offset": 1597,
       "length": 16,
       "value": "\"analyticsTrack\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1622,
+      "offset": 1712,
       "length": 18,
       "value": "\"External Webview\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1941,
+      "offset": 2031,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2051,
+      "offset": 2141,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvSuccessPayload.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvSuccessPayload.swift",
       "kind": "StringLiteral",
       "offset": 329,
       "length": 9,
       "value": "\"task_id\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvSuccessPayload.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvSuccessPayload.swift",
       "kind": "StringLiteral",
       "offset": 466,
       "length": 14,
       "value": "\"public_token\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
       "kind": "StringLiteral",
       "offset": 204,
       "length": 13,
       "value": "\"page_loaded\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
       "kind": "StringLiteral",
       "offset": 246,
       "length": 19,
       "value": "\"second_screenshot\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
       "kind": "StringLiteral",
       "offset": 290,
       "length": 15,
       "value": "\"loading_error\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
       "kind": "StringLiteral",
       "offset": 333,
       "length": 18,
       "value": "\"dialog_dismissed\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
+      "kind": "FloatLiteral",
+      "offset": 2262,
+      "length": 6,
+      "value": "1000.0"
+    },
+    {
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
+      "kind": "StringLiteral",
+      "offset": 2384,
+      "length": 46,
+      "value": "\"ExternalLoginWebViewDebug: captureScreenshot\""
+    },
+    {
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
+      "kind": "StringLiteral",
+      "offset": 2438,
+      "length": 49,
+      "value": "\"webView is nil for trigger: \""
+    },
+    {
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
+      "kind": "StringLiteral",
+      "offset": 2486,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
+      "kind": "StringLiteral",
+      "offset": 2627,
+      "length": 46,
+      "value": "\"ExternalLoginWebViewDebug: captureScreenshot\""
+    },
+    {
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
+      "kind": "StringLiteral",
+      "offset": 2681,
+      "length": 49,
+      "value": "\"capture failed for trigger: \""
+    },
+    {
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
+      "kind": "StringLiteral",
+      "offset": 2729,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
+      "kind": "StringLiteral",
+      "offset": 2839,
+      "length": 38,
+      "value": "\"[debug] External Webview: screenshot\""
+    },
+    {
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
+      "kind": "StringLiteral",
+      "offset": 2917,
+      "length": 9,
+      "value": "\"trigger\""
+    },
+    {
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
+      "kind": "StringLiteral",
+      "offset": 2962,
+      "length": 5,
+      "value": "\"url\""
+    },
+    {
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
+      "kind": "StringLiteral",
+      "offset": 2990,
+      "length": 7,
+      "value": "\"image\""
+    },
+    {
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
+      "kind": "StringLiteral",
+      "offset": 3029,
+      "length": 13,
+      "value": "\"provider_id\""
+    },
+    {
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 345,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 396,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 600,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 785,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1118,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1186,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/Constants.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 193,
       "length": 30,
       "value": "\"ios:\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/Constants.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 222,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/Constants.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 264,
       "length": 21,
       "value": "\"\/oauth-success.html\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/Constants.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 339,
       "length": 137,
       "value": "\"Mozilla\/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit\/605.1.15 (KHTML, like Gecko) Version\/26.2 Mobile\/15E148 Safari\/604.1\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
       "kind": "StringLiteral",
       "offset": 195,
       "length": 12,
       "value": "\"LINK_ERROR\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
       "kind": "StringLiteral",
       "offset": 282,
       "length": 12,
       "value": "\"LINK_ERROR\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
       "kind": "StringLiteral",
       "offset": 322,
       "length": 13,
       "value": "\"UNAVAILABLE\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
       "kind": "StringLiteral",
       "offset": 360,
       "length": 11,
       "value": "\"MFA_ERROR\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
       "kind": "StringLiteral",
       "offset": 398,
       "length": 13,
       "value": "\"LOGIN_ERROR\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
       "kind": "StringLiteral",
       "offset": 433,
       "length": 7,
       "value": "\"ERROR\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
       "kind": "StringLiteral",
       "offset": 517,
       "length": 12,
       "value": "\"error_type\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
       "kind": "StringLiteral",
       "offset": 550,
       "length": 12,
       "value": "\"error_code\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvError.swift",
       "kind": "StringLiteral",
       "offset": 586,
       "length": 15,
       "value": "\"error_message\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBaseController.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBaseController.swift",
       "kind": "BooleanLiteral",
       "offset": 395,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/MobileConfig.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/MobileConfig.swift",
       "kind": "StringLiteral",
       "offset": 1374,
       "length": 8,
       "value": "\"legacy\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/MobileConfig.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/MobileConfig.swift",
       "kind": "StringLiteral",
       "offset": 1401,
       "length": 8,
       "value": "\"safari\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/MobileConfig.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/MobileConfig.swift",
       "kind": "StringLiteral",
       "offset": 1429,
       "length": 9,
       "value": "\"session\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/MobileConfig.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/MobileConfig.swift",
       "kind": "StringLiteral",
       "offset": 1559,
       "length": 10,
       "value": "\"disabled\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/MobileConfig.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/MobileConfig.swift",
       "kind": "StringLiteral",
       "offset": 1584,
       "length": 4,
       "value": "\"v1\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 98,
       "length": 2,
       "value": "21"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 101,
       "length": 3,
       "value": "256"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 113,
       "length": 2,
       "value": "27"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 116,
       "length": 3,
       "value": "256"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 127,
       "length": 2,
       "value": "40"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 130,
       "length": 3,
       "value": "256"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 142,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 217,
       "length": 3,
       "value": "135"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 221,
       "length": 3,
       "value": "256"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 233,
       "length": 3,
       "value": "138"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 237,
       "length": 3,
       "value": "256"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 248,
       "length": 3,
       "value": "146"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 252,
       "length": 3,
       "value": "256"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 264,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 331,
       "length": 2,
       "value": "28"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 334,
       "length": 3,
       "value": "256"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 346,
       "length": 3,
       "value": "143"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 350,
       "length": 3,
       "value": "256"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 361,
       "length": 2,
       "value": "96"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 364,
       "length": 3,
       "value": "256"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 376,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 442,
       "length": 2,
       "value": "44"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 445,
       "length": 3,
       "value": "256"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 457,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 461,
       "length": 3,
       "value": "256"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 472,
       "length": 3,
       "value": "227"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 476,
       "length": 3,
       "value": "256"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/Colors.swift",
       "kind": "IntegerLiteral",
       "offset": 488,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBaseView.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBaseView.swift",
       "kind": "BooleanLiteral",
       "offset": 378,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBaseView.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBaseView.swift",
       "kind": "BooleanLiteral",
       "offset": 650,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBaseView.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Main\/TruvBaseView.swift",
       "kind": "BooleanLiteral",
       "offset": 683,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 760,
       "length": 14,
       "value": "\"bridge_token\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 806,
       "length": 14,
       "value": "\"product_type\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 849,
       "length": 11,
       "value": "\"view_name\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 918,
       "length": 14,
       "value": "\"public_token\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 959,
       "length": 9,
       "value": "\"task_id\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 999,
       "length": 13,
       "value": "\"provider_id\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1140,
       "length": 13,
       "value": "\"data_source\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1181,
       "length": 10,
       "value": "\"doc_type\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1304,
       "length": 12,
       "value": "\"event_type\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1389,
       "length": 6,
       "value": "\"LOAD\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1416,
       "length": 6,
       "value": "\"OPEN\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1449,
       "length": 13,
       "value": "\"SCREEN_VIEW\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1495,
       "length": 19,
       "value": "\"EMPLOYER_SELECTED\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1542,
       "length": 14,
       "value": "\"LINK_CREATED\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1586,
       "length": 16,
       "value": "\"LOGIN_COMPLETE\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1626,
       "length": 9,
       "value": "\"SUCCESS\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1657,
       "length": 7,
       "value": "\"ERROR\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1699,
       "length": 21,
       "value": "\"UNSUPPORTED_BROWSER\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1742,
       "length": 7,
       "value": "\"CLOSE\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1775,
       "length": 12,
       "value": "\"MANUAL_DDS\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1821,
       "length": 20,
       "value": "\"DOCUMENTS_UPLOADED\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1873,
       "length": 19,
       "value": "\"DOC_UPLOAD_OPENED\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 1920,
       "length": 14,
       "value": "\"OAUTH_OPENED\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 2025,
       "length": 15,
       "value": "\"EXTERNAL_FLOW\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 2065,
       "length": 10,
       "value": "\"DOWNLOAD\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 2097,
       "length": 7,
       "value": "\"EMAIL\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvEventPayload.swift",
       "kind": "StringLiteral",
       "offset": 2126,
       "length": 7,
       "value": "\"SHARE\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Network\/Analytics.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Network\/Analytics.swift",
       "kind": "Dictionary",
       "offset": 353,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Network\/Analytics.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Network\/Analytics.swift",
       "kind": "Dictionary",
       "offset": 524,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Network\/Analytics.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Network\/Analytics.swift",
       "kind": "Dictionary",
       "offset": 708,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Network\/Analytics.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Network\/Analytics.swift",
       "kind": "IntegerLiteral",
       "offset": 1108,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Network\/Analytics.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Network\/Analytics.swift",
       "kind": "IntegerLiteral",
       "offset": 1114,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Network\/Analytics.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Network\/Analytics.swift",
       "kind": "IntegerLiteral",
       "offset": 1182,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Network\/Analytics.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Network\/Analytics.swift",
       "kind": "IntegerLiteral",
       "offset": 1219,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/ExternalLoginDebugConfig.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/ExternalLoginDebugConfig.swift",
       "kind": "StringLiteral",
-      "offset": 360,
+      "offset": 399,
       "length": 28,
       "value": "\"second_screenshot_delay_ms\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvSDKConfig.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/ExternalLoginDebugConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 462,
+      "length": 22,
+      "value": "\"throttle_interval_ms\""
+    },
+    {
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvSDKConfig.swift",
       "kind": "StringLiteral",
       "offset": 272,
       "length": 22,
       "value": "\"https:\/\/cdn.truv.com\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvSDKConfig.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvSDKConfig.swift",
       "kind": "StringLiteral",
       "offset": 321,
       "length": 23,
       "value": "\"https:\/\/prod.truv.com\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvSDKConfig.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvSDKConfig.swift",
       "kind": "StringLiteral",
       "offset": 373,
       "length": 21,
       "value": "\"https:\/\/my.truv.com\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvSDKConfig.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvSDKConfig.swift",
       "kind": "StringLiteral",
       "offset": 431,
       "length": 12,
       "value": "\"mobile-sdk\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvSDKConfig.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Models\/TruvSDKConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 469,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
       "kind": "BooleanLiteral",
       "offset": 324,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 470,
       "length": 2,
       "value": "26"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 604,
       "length": 2,
       "value": "01"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 751,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 886,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
       "kind": "BooleanLiteral",
       "offset": 1231,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
       "kind": "BooleanLiteral",
       "offset": 1445,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 1548,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewErrorLoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 1607,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
       "kind": "BooleanLiteral",
       "offset": 185,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
       "kind": "StringLiteral",
       "offset": 233,
       "length": 17,
       "value": "\"arrow.clockwise\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
       "kind": "Array",
       "offset": 258,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
       "kind": "StringLiteral",
       "offset": 561,
       "length": 6,
       "value": "\"lock\""
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
       "kind": "IntegerLiteral",
       "offset": 761,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
       "kind": "BooleanLiteral",
       "offset": 1030,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
       "kind": "IntegerLiteral",
       "offset": 1064,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/alex\/Projects\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Subviews\/WebViewHeader.swift",
       "kind": "BooleanLiteral",
       "offset": 1294,
       "length": 5,
