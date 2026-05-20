@@ -9,6 +9,16 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
+        "moduleName": "TruvSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
         "moduleName": "TruvSDK"
       },
       {
@@ -10454,6 +10464,20 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/ImageAnalyzer.swift",
+      "kind": "FloatLiteral",
+      "offset": 495,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Helpers\/ImageAnalyzer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 625,
+      "length": 1,
+      "value": "8"
+    },
+    {
       "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/TruvScriptJsRuntimeErrorHandler.swift",
       "kind": "StringLiteral",
       "offset": 238,
@@ -10469,71 +10493,78 @@
     },
     {
       "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 380,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 574,
+      "offset": 733,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 625,
+      "offset": 784,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 829,
+      "offset": 988,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1000,
+      "offset": 1159,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1062,
+      "offset": 1221,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1519,
+      "offset": 1678,
       "length": 10,
       "value": "\"callback\""
     },
     {
       "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1597,
+      "offset": 1756,
       "length": 16,
       "value": "\"analyticsTrack\""
     },
     {
       "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1712,
+      "offset": 1871,
       "length": 18,
       "value": "\"External Webview\""
     },
     {
       "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2031,
+      "offset": 2190,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/Login\/LoginWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2141,
+      "offset": 2300,
       "length": 4,
       "value": "true"
     },
@@ -10581,87 +10612,101 @@
     },
     {
       "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
+      "kind": "Array",
+      "offset": 1129,
+      "length": 17,
+      "value": "[500, 1000, 2000]"
+    },
+    {
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
       "kind": "FloatLiteral",
-      "offset": 2262,
+      "offset": 4653,
       "length": 6,
       "value": "1000.0"
     },
     {
       "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
       "kind": "StringLiteral",
-      "offset": 2384,
+      "offset": 4950,
       "length": 46,
       "value": "\"ExternalLoginWebViewDebug: captureScreenshot\""
     },
     {
       "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
       "kind": "StringLiteral",
-      "offset": 2438,
+      "offset": 5004,
       "length": 49,
       "value": "\"webView is nil for trigger: \""
     },
     {
       "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
       "kind": "StringLiteral",
-      "offset": 2486,
+      "offset": 5052,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
       "kind": "StringLiteral",
-      "offset": 2627,
+      "offset": 5199,
       "length": 46,
       "value": "\"ExternalLoginWebViewDebug: captureScreenshot\""
     },
     {
       "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
       "kind": "StringLiteral",
-      "offset": 2681,
+      "offset": 5253,
       "length": 49,
       "value": "\"capture failed for trigger: \""
     },
     {
       "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
       "kind": "StringLiteral",
-      "offset": 2729,
+      "offset": 5301,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
       "kind": "StringLiteral",
-      "offset": 2839,
+      "offset": 5460,
       "length": 38,
       "value": "\"[debug] External Webview: screenshot\""
     },
     {
       "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
       "kind": "StringLiteral",
-      "offset": 2917,
+      "offset": 5538,
       "length": 9,
       "value": "\"trigger\""
     },
     {
       "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
       "kind": "StringLiteral",
-      "offset": 2962,
+      "offset": 5583,
       "length": 5,
       "value": "\"url\""
     },
     {
       "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
       "kind": "StringLiteral",
-      "offset": 2990,
+      "offset": 5611,
       "length": 7,
       "value": "\"image\""
     },
     {
       "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Handlers\/ExternalLoginWebViewDebug.swift",
       "kind": "StringLiteral",
-      "offset": 3029,
+      "offset": 5650,
       "length": 13,
       "value": "\"provider_id\""
+    },
+    {
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Extensions\/UIView+Screenshot.swift",
+      "kind": "FloatLiteral",
+      "offset": 179,
+      "length": 3,
+      "value": "0.3"
     },
     {
       "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Flow\/OAuth\/OAuthViewController.swift",
