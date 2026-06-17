@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		9iKccVj6LQpSbf0t65Pdpbj0gXg=
+		chJvjb8kaBENLvCfmBH3cot3p5s=
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		jb2Dq7mVJNwp7aXR2H45DhDJ/3I=
+		ixbBdJ4FCuRp7+xNr8/9IfmGBEM=
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Jjm6qLl04K+MGxoOHgevb+GuUJc=
+		4RIpy/35z3ARimlDLfy2hWPN6HM=
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		jb2Dq7mVJNwp7aXR2H45DhDJ/3I=
+		ixbBdJ4FCuRp7+xNr8/9IfmGBEM=
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/TruvSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		z2PGhQHVJWkK0bShAUm4q7etgEw=
+		Uk5JHFuoE+XUjZXXPsRwaswGfSU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			B24fTTHacQrw6Lj3fpgZxByXn3Z9MVg/EG1h23uuWWI=
+			948kSP/iOoQjP4cTjTk0E59JGkM9i/pCdm8LLpdCElk=
 			</data>
 		</dict>
 		<key>Modules/TruvSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QZUrZHXZ8sZVb55GjEq71is7F6DZ3+Jy1YrHIahDceQ=
+			ugOlIhMAMKl9pJMO6+rSnUNpg3tmCrTxvm6EqY7I7/U=
 			</data>
 		</dict>
 		<key>Modules/TruvSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B24fTTHacQrw6Lj3fpgZxByXn3Z9MVg/EG1h23uuWWI=
+			948kSP/iOoQjP4cTjTk0E59JGkM9i/pCdm8LLpdCElk=
 			</data>
 		</dict>
 		<key>Modules/TruvSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Tr5CG0hBJqmJvE5q1rvLvHPOW25h/ujfu+SKjMPDGRI=
+			Y0W7nitIQDjSjp2vNnXmwlzeGPzM5OZ/WLxQ2gROQ/8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
