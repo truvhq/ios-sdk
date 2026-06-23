@@ -11312,29 +11312,36 @@
     },
     {
       "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Network\/Analytics.swift",
+      "kind": "StringLiteral",
+      "offset": 1089,
+      "length": 11,
+      "value": "\"<not set>\""
+    },
+    {
+      "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Network\/Analytics.swift",
       "kind": "IntegerLiteral",
-      "offset": 1108,
+      "offset": 1148,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Network\/Analytics.swift",
       "kind": "IntegerLiteral",
-      "offset": 1114,
+      "offset": 1154,
       "length": 4,
       "value": "1024"
     },
     {
       "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Network\/Analytics.swift",
       "kind": "IntegerLiteral",
-      "offset": 1182,
+      "offset": 1222,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/yudjinsud\/Documents\/work\/truv\/mobile-sdks\/ios\/ios-sdk-framework\/TruvSDK\/TruvSDK\/Classes\/Network\/Analytics.swift",
       "kind": "IntegerLiteral",
-      "offset": 1219,
+      "offset": 1259,
       "length": 1,
       "value": "0"
     },
