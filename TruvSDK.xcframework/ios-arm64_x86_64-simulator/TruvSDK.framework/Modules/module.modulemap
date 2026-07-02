@@ -7,4 +7,5 @@ framework module TruvSDK {
 
 module TruvSDK.Swift {
   header "TruvSDK-Swift.h"
+  requires objc
 }
