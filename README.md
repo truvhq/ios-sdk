@@ -2,25 +2,11 @@
 
 ## Requirements
 
+iOS 15.0 or later.
+
 ### Installation
 
-The TruvSDK is available via [Swift Package Manager](https://swift.org/package-manager/) and [CocoaPods](https://cocoapods.org/).
-
-#### Swift Package Manager
-Add `https://github.com/truvhq/ios-sdk` as a package dependency.
-
-#### CocoaPods
-To install the SDK with CocoaPods, add `TruvSDK` as one of your target dependencies in your Podfile:
-
-```ruby
-use_frameworks!
-
-target 'MyApp' do
-    pod 'TruvSDK'
-end
-```
-
-Please be sure to run `pod update` and use `pod install --repo-update` to ensure you have the most recent version of the SDK installed.
+The TruvSDK is available via [Swift Package Manager](https://swift.org/package-manager/). Add `https://github.com/truvhq/ios-sdk` as a package dependency.
 
 ### TruvBridgeView
 
